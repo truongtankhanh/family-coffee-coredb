@@ -1,0 +1,20 @@
+.idea/
+.vscode/
+coverage/
+logs/
+
+.env
+# Dependency directory
+node_modules
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# ignore yarn.lock
+yarn.lock
+
+# Ignore built ts files
+
+development-env/.localstack-data
+development-env/db-data
