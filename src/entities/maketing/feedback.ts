@@ -3,6 +3,7 @@ import {Column, Entity, JoinColumn, ManyToOne} from 'typeorm';
 import {User} from '../manager';
 import {Restaurant} from './restaurant';
 import {BaseEntity} from '../base-entity';
+import {RATING_VALUE, RatingValue} from '../../enum';
 
 @Entity('feedback', {
   schema: 'family_coffee_db',
@@ -20,8 +21,11 @@ export class Feedback extends BaseEntity {
   @Column('varchar', {name: 'restaurant_id', length: 36})
   restaurantId: string | undefined;
 
-  @Column('int', {comment: 'Đánh giá của khách hàng'})
-  rating: number | undefined;
+  @Column('enum', {
+    comment: 'Đánh giá của khách hàng',
+    enum: Object.values(RATING_VALUE),
+  })
+  rating: RatingValue | undefined;
 
   @Column('varchar', {name: 'user_id', length: 36})
   userId: string | undefined;

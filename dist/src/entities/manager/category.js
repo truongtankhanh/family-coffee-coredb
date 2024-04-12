@@ -13,8 +13,8 @@ exports.Category = void 0;
 const uuid_1 = require("uuid");
 const typeorm_1 = require("typeorm");
 const product_1 = require("./product");
-const enum_1 = require("../../enum");
 const base_entity_1 = require("../base-entity");
+const enum_1 = require("../../enum");
 let Category = class Category extends base_entity_1.BaseEntity {
     constructor() {
         super();
@@ -37,11 +37,12 @@ __decorate([
         enum: Object.values(enum_1.ACTIVE_STATUS),
         default: enum_1.ACTIVE_STATUS.ACTIVE,
     }),
-    __metadata("design:type", Boolean)
+    __metadata("design:type", String)
 ], Category.prototype, "isActive", void 0);
 __decorate([
-    (0, typeorm_1.Column)('int', {
+    (0, typeorm_1.Column)('varchar', {
         name: 'parent_id',
+        length: 36,
         nullable: true,
         comment: 'ID danh mục cha (để hỗ trợ danh mục con, khóa ngoại tham chiếu đến chính bảng Categories)',
     }),

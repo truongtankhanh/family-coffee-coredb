@@ -15,6 +15,7 @@ const typeorm_1 = require("typeorm");
 const manager_1 = require("../manager");
 const restaurant_1 = require("./restaurant");
 const base_entity_1 = require("../base-entity");
+const enum_1 = require("../../enum");
 let Feedback = class Feedback extends base_entity_1.BaseEntity {
     constructor() {
         super();
@@ -31,8 +32,11 @@ __decorate([
     __metadata("design:type", String)
 ], Feedback.prototype, "restaurantId", void 0);
 __decorate([
-    (0, typeorm_1.Column)('int', { comment: 'Đánh giá của khách hàng' }),
-    __metadata("design:type", Number)
+    (0, typeorm_1.Column)('enum', {
+        comment: 'Đánh giá của khách hàng',
+        enum: Object.values(enum_1.RATING_VALUE),
+    }),
+    __metadata("design:type", String)
 ], Feedback.prototype, "rating", void 0);
 __decorate([
     (0, typeorm_1.Column)('varchar', { name: 'user_id', length: 36 }),

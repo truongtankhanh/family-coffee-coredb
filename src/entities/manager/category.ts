@@ -1,8 +1,8 @@
 import {v4 as uuidv4} from 'uuid';
 import {Column, Entity, OneToMany} from 'typeorm';
 import {Product} from './product';
-import {ACTIVE_STATUS} from '../../enum';
 import {BaseEntity} from '../base-entity';
+import {ACTIVE_STATUS, ActiveStatus} from '../../enum';
 
 @Entity('categories', {
   schema: 'family_coffee_db',
@@ -26,10 +26,11 @@ export class Category extends BaseEntity {
     enum: Object.values(ACTIVE_STATUS),
     default: ACTIVE_STATUS.ACTIVE,
   })
-  isActive: boolean | undefined;
+  isActive: ActiveStatus | undefined;
 
-  @Column('int', {
+  @Column('varchar', {
     name: 'parent_id',
+    length: 36,
     nullable: true,
     comment:
       'ID danh mục cha (để hỗ trợ danh mục con, khóa ngoại tham chiếu đến chính bảng Categories)',
