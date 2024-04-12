@@ -84,3 +84,13 @@ export const ROLE_TYPE = {
 };
 
 export type RoleType = (typeof ROLE_TYPE)[keyof typeof ROLE_TYPE];
+
+export const RATING_VALUE = {
+  ONE: '1',
+  TWO: '2',
+  THREE: '3',
+  FOUR: '4',
+  FIVE: '5',
+};
+
+export type RatingValue = (typeof RATING_VALUE)[keyof typeof RATING_VALUE];

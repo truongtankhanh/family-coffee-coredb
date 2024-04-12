@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Feedback = void 0;
 const uuid_1 = require("uuid");
 const typeorm_1 = require("typeorm");
+const manager_1 = require("../manager");
 const restaurant_1 = require("./restaurant");
 const base_entity_1 = require("../base-entity");
 let Feedback = class Feedback extends base_entity_1.BaseEntity {
@@ -21,14 +22,6 @@ let Feedback = class Feedback extends base_entity_1.BaseEntity {
     }
 };
 exports.Feedback = Feedback;
-__decorate([
-    (0, typeorm_1.Column)('nvarchar', {
-        name: 'customer_name',
-        length: 255,
-        comment: 'Tên khách hàng gửi phản hồi',
-    }),
-    __metadata("design:type", String)
-], Feedback.prototype, "customerName", void 0);
 __decorate([
     (0, typeorm_1.Column)('text', { name: 'message', comment: 'Nội dung phản hồi' }),
     __metadata("design:type", String)
@@ -42,10 +35,19 @@ __decorate([
     __metadata("design:type", Number)
 ], Feedback.prototype, "rating", void 0);
 __decorate([
-    (0, typeorm_1.ManyToOne)(() => restaurant_1.Restaurant, restaurant => restaurant.feedback),
+    (0, typeorm_1.Column)('varchar', { name: 'user_id', length: 36 }),
+    __metadata("design:type", String)
+], Feedback.prototype, "userId", void 0);
+__decorate([
+    (0, typeorm_1.ManyToOne)(() => restaurant_1.Restaurant, _object => _object.feedback),
     (0, typeorm_1.JoinColumn)([{ name: 'restaurant_id', referencedColumnName: 'id' }]),
     __metadata("design:type", restaurant_1.Restaurant)
 ], Feedback.prototype, "restaurant", void 0);
+__decorate([
+    (0, typeorm_1.ManyToOne)(() => manager_1.User, _object => _object.blogs),
+    (0, typeorm_1.JoinColumn)([{ name: 'user_id', referencedColumnName: 'id' }]),
+    __metadata("design:type", manager_1.User)
+], Feedback.prototype, "user", void 0);
 exports.Feedback = Feedback = __decorate([
     (0, typeorm_1.Entity)('feedback', {
         schema: 'family_coffee_db',

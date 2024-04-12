@@ -9,18 +9,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Account = void 0;
+exports.User = void 0;
 const uuid_1 = require("uuid");
 const typeorm_1 = require("typeorm");
+const order_1 = require("./order");
 const base_entity_1 = require("../base-entity");
+const maketing_1 = require("../maketing");
 const enum_1 = require("../../enum");
-let Account = class Account extends base_entity_1.BaseEntity {
+let User = class User extends base_entity_1.BaseEntity {
     constructor() {
         super();
         this.id = (0, uuid_1.v4)();
     }
 };
-exports.Account = Account;
+exports.User = User;
 __decorate([
     (0, typeorm_1.Column)('varchar', {
         name: 'email',
@@ -29,15 +31,15 @@ __decorate([
         comment: 'Địa chỉ email của người dùng',
     }),
     __metadata("design:type", String)
-], Account.prototype, "email", void 0);
+], User.prototype, "email", void 0);
 __decorate([
     (0, typeorm_1.Column)('varchar', {
         name: 'password',
-        length: 50,
+        length: 255,
         comment: 'Mật khẩu được mã hóa của người dùng',
     }),
     __metadata("design:type", String)
-], Account.prototype, "password", void 0);
+], User.prototype, "password", void 0);
 __decorate([
     (0, typeorm_1.Column)('nvarchar', {
         name: 'full_name',
@@ -45,11 +47,11 @@ __decorate([
         comment: 'Họ và tên của người dùng',
     }),
     __metadata("design:type", String)
-], Account.prototype, "fullName", void 0);
+], User.prototype, "fullName", void 0);
 __decorate([
     (0, typeorm_1.Column)('text', { name: 'address', comment: 'Địa chỉ của người dùng' }),
     __metadata("design:type", String)
-], Account.prototype, "address", void 0);
+], User.prototype, "address", void 0);
 __decorate([
     (0, typeorm_1.Column)('varchar', {
         name: 'phone_number',
@@ -58,7 +60,7 @@ __decorate([
         comment: 'Số điện thoại của người dùng',
     }),
     __metadata("design:type", String)
-], Account.prototype, "phoneNumber", void 0);
+], User.prototype, "phoneNumber", void 0);
 __decorate([
     (0, typeorm_1.Column)('enum', {
         name: 'is_active',
@@ -67,7 +69,7 @@ __decorate([
         default: enum_1.ACTIVE_STATUS.ACTIVE,
     }),
     __metadata("design:type", String)
-], Account.prototype, "isActive", void 0);
+], User.prototype, "isActive", void 0);
 __decorate([
     (0, typeorm_1.Column)('enum', {
         name: 'is_role',
@@ -76,7 +78,7 @@ __decorate([
         default: enum_1.ROLE_TYPE.CUSTOMER,
     }),
     __metadata("design:type", String)
-], Account.prototype, "isRole", void 0);
+], User.prototype, "isRole", void 0);
 __decorate([
     (0, typeorm_1.Column)('varchar', {
         name: 'jwt_token',
@@ -85,12 +87,28 @@ __decorate([
         comment: 'Lưu trữ token JWT cho mỗi người dùng',
     }),
     __metadata("design:type", String)
-], Account.prototype, "jwtToken", void 0);
-exports.Account = Account = __decorate([
-    (0, typeorm_1.Entity)('account', {
+], User.prototype, "jwtToken", void 0);
+__decorate([
+    (0, typeorm_1.OneToMany)(() => order_1.Order, _object => _object.user),
+    __metadata("design:type", Promise)
+], User.prototype, "orders", void 0);
+__decorate([
+    (0, typeorm_1.OneToMany)(() => maketing_1.BlogPost, _object => _object.user),
+    __metadata("design:type", Promise)
+], User.prototype, "blogs", void 0);
+__decorate([
+    (0, typeorm_1.OneToMany)(() => maketing_1.Comment, _object => _object.user),
+    __metadata("design:type", Promise)
+], User.prototype, "comments", void 0);
+__decorate([
+    (0, typeorm_1.OneToMany)(() => maketing_1.Feedback, _object => _object.user),
+    __metadata("design:type", Promise)
+], User.prototype, "feedbacks", void 0);
+exports.User = User = __decorate([
+    (0, typeorm_1.Entity)('users', {
         schema: 'family_coffee_db',
-        comment: 'Lưu trữ thông tin của người dùng',
+        comment: 'Lưu trữ thông tin người dùng cho quán cà phê',
     }),
     __metadata("design:paramtypes", [])
-], Account);
-//# sourceMappingURL=account.js.map
+], User);
+//# sourceMappingURL=user.js.map

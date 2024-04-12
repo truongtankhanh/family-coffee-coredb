@@ -55,6 +55,13 @@ __decorate([
     __metadata("design:type", String)
 ], Restaurant.prototype, "workingHours", void 0);
 __decorate([
+    (0, typeorm_1.Column)('text', {
+        name: 'social_media',
+        comment: 'Lưu trữ các liên kết đến trang mạng xã hội của nhà hàng',
+    }),
+    __metadata("design:type", String)
+], Restaurant.prototype, "socialMedia", void 0);
+__decorate([
     (0, typeorm_1.Column)('text', { comment: 'Đường dẫn ảnh đại diện của nhà hàng' }),
     __metadata("design:type", String)
 ], Restaurant.prototype, "image", void 0);
@@ -69,7 +76,7 @@ __decorate([
 ], Restaurant.prototype, "isActive", void 0);
 __decorate([
     (0, typeorm_1.OneToMany)(() => feedback_1.Feedback, feedback => feedback.restaurant),
-    __metadata("design:type", Array)
+    __metadata("design:type", Promise)
 ], Restaurant.prototype, "feedback", void 0);
 exports.Restaurant = Restaurant = __decorate([
     (0, typeorm_1.Entity)('restaurant', {

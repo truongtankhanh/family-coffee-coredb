@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ROLE_TYPE = exports.ACCOUNT_STATUS = exports.PRODUCT_STATUS = exports.PAYMENT_METHOD = exports.PAYMENT_STATUS = exports.ORDER_STATUS = exports.ACTIVE_STATUS = void 0;
+exports.RATING_VALUE = exports.ROLE_TYPE = exports.ACCOUNT_STATUS = exports.PRODUCT_STATUS = exports.PAYMENT_METHOD = exports.PAYMENT_STATUS = exports.ORDER_STATUS = exports.ACTIVE_STATUS = void 0;
 exports.ACTIVE_STATUS = {
     ACTIVE: 'active',
     INACTIVE: 'inactive',
@@ -62,5 +62,12 @@ exports.ROLE_TYPE = {
     CUSTOMER: 'customer',
     STAFF: 'staff',
     ADMIN: 'admin',
+};
+exports.RATING_VALUE = {
+    ONE: '1',
+    TWO: '2',
+    THREE: '3',
+    FOUR: '4',
+    FIVE: '5',
 };
 //# sourceMappingURL=index.js.map

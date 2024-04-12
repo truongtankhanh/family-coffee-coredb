@@ -9,41 +9,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.OrderDetail = void 0;
+exports.OrderHistory = void 0;
 const uuid_1 = require("uuid");
 const typeorm_1 = require("typeorm");
 const order_1 = require("./order");
 const product_1 = require("./product");
 const base_entity_1 = require("../base-entity");
-let OrderDetail = class OrderDetail extends base_entity_1.BaseEntity {
+let OrderHistory = class OrderHistory extends base_entity_1.BaseEntity {
     constructor() {
         super();
         this.id = (0, uuid_1.v4)();
     }
 };
-exports.OrderDetail = OrderDetail;
-__decorate([
-    (0, typeorm_1.Column)('int', { name: 'product_id', comment: 'ID của sản phẩm' }),
-    __metadata("design:type", Number)
-], OrderDetail.prototype, "productId", void 0);
+exports.OrderHistory = OrderHistory;
 __decorate([
     (0, typeorm_1.Column)('int', {
         name: 'quantity',
         comment: 'Số lượng sản phẩm được đặt trong đơn hàng',
     }),
     __metadata("design:type", Number)
-], OrderDetail.prototype, "quantity", void 0);
-__decorate([
-    (0, typeorm_1.Column)('int', { name: 'unit_price', comment: 'Giá của một đơn vị sản phẩm' }),
-    __metadata("design:type", Number)
-], OrderDetail.prototype, "unitPrice", void 0);
+], OrderHistory.prototype, "quantity", void 0);
 __decorate([
     (0, typeorm_1.Column)('int', {
         name: 'subtotal',
         comment: 'Tổng giá của sản phẩm trong đơn hàng, tự động tính toán',
     }),
     __metadata("design:type", Number)
-], OrderDetail.prototype, "subtotal", void 0);
+], OrderHistory.prototype, "subtotal", void 0);
 __decorate([
     (0, typeorm_1.Column)('varchar', {
         name: 'order_id',
@@ -51,22 +43,26 @@ __decorate([
         comment: 'ID của đơn hàng',
     }),
     __metadata("design:type", String)
-], OrderDetail.prototype, "orderId", void 0);
+], OrderHistory.prototype, "orderId", void 0);
 __decorate([
-    (0, typeorm_1.ManyToOne)(() => order_1.Order, order => order.orderDetails),
+    (0, typeorm_1.ManyToOne)(() => order_1.Order, _object => _object.orderHistories),
     (0, typeorm_1.JoinColumn)([{ name: 'order_id', referencedColumnName: 'id' }]),
     __metadata("design:type", order_1.Order)
-], OrderDetail.prototype, "order", void 0);
+], OrderHistory.prototype, "order", void 0);
+__decorate([
+    (0, typeorm_1.Column)('int', { name: 'product_id', comment: 'ID của sản phẩm' }),
+    __metadata("design:type", Number)
+], OrderHistory.prototype, "productId", void 0);
 __decorate([
     (0, typeorm_1.OneToOne)(() => product_1.Product),
     (0, typeorm_1.JoinColumn)([{ name: 'product_id', referencedColumnName: 'id' }]),
     __metadata("design:type", product_1.Product)
-], OrderDetail.prototype, "product", void 0);
-exports.OrderDetail = OrderDetail = __decorate([
-    (0, typeorm_1.Entity)('order_detail', {
+], OrderHistory.prototype, "product", void 0);
+exports.OrderHistory = OrderHistory = __decorate([
+    (0, typeorm_1.Entity)('order_history', {
         schema: 'family_coffee_db',
         comment: 'Lưu trữ chi tiết các sản phẩm trong một đơn hàng',
     }),
     __metadata("design:paramtypes", [])
-], OrderDetail);
-//# sourceMappingURL=order-detail.js.map
+], OrderHistory);
+//# sourceMappingURL=order-history.js.map

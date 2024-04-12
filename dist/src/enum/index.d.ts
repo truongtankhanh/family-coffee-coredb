@@ -67,3 +67,11 @@ export declare const ROLE_TYPE: {
     ADMIN: string;
 };
 export type RoleType = (typeof ROLE_TYPE)[keyof typeof ROLE_TYPE];
+export declare const RATING_VALUE: {
+    ONE: string;
+    TWO: string;
+    THREE: string;
+    FOUR: string;
+    FIVE: string;
+};
+export type RatingValue = (typeof RATING_VALUE)[keyof typeof RATING_VALUE];

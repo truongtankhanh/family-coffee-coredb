@@ -41,6 +41,12 @@ export class Restaurant extends BaseEntity {
   })
   workingHours: string | undefined;
 
+  @Column('text', {
+    name: 'social_media',
+    comment: 'Lưu trữ các liên kết đến trang mạng xã hội của nhà hàng',
+  })
+  socialMedia: string | undefined;
+
   @Column('text', {comment: 'Đường dẫn ảnh đại diện của nhà hàng'})
   image: string | undefined;
 
@@ -53,5 +59,5 @@ export class Restaurant extends BaseEntity {
   isActive: ActiveStatus | undefined;
 
   @OneToMany(() => Feedback, feedback => feedback.restaurant)
-  feedback: Feedback[];
+  feedback: Promise<Feedback[]> | undefined;
 }

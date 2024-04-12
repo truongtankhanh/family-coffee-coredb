@@ -15,6 +15,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./get-env"), exports);
-__exportStar(require("./database-options"), exports);
+__exportStar(require("./data-source"), exports);
 __exportStar(require("./typeorm.config"), exports);
+__exportStar(require("./database-options"), exports);
 //# sourceMappingURL=index.js.map

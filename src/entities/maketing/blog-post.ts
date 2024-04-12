@@ -1,5 +1,6 @@
 import {v4 as uuidv4} from 'uuid';
-import {Column, Entity, OneToMany} from 'typeorm';
+import {Column, Entity, JoinColumn, ManyToOne, OneToMany} from 'typeorm';
+import {User} from '../manager';
 import {Comment} from './comment';
 import {BaseEntity} from '../base-entity';
 import {ACTIVE_STATUS, ActiveStatus} from '../../enum';
@@ -20,22 +21,6 @@ export class BlogPost extends BaseEntity {
   @Column('text', {name: 'content', comment: 'Nội dung bài viết'})
   content: string | undefined;
 
-  @Column('nvarchar', {
-    name: 'author',
-    length: 255,
-    comment: 'Tác giả bài viết',
-  })
-  author: string | undefined;
-
-  @Column('text', {name: 'category', comment: 'Danh mục của bài viết'})
-  category: string | undefined;
-
-  @Column('datetime', {
-    name: 'published_at',
-    default: () => 'CURRENT_TIMESTAMP',
-  })
-  publishedAt: Date | undefined;
-
   @Column('enum', {
     name: 'is_active',
     comment: 'Trạng thái hoạt động của bài viết (active/inactive)',
@@ -44,6 +29,13 @@ export class BlogPost extends BaseEntity {
   })
   isActive: ActiveStatus | undefined;
 
-  @OneToMany(() => Comment, comment => comment.blogPost)
+  @Column('varchar', {name: 'user_id', length: 36})
+  userId: string;
+
+  @OneToMany(() => Comment, _object => _object.blogPost)
   comments: Promise<Comment[]> | undefined;
+
+  @ManyToOne(() => User, _object => _object.blogs)
+  @JoinColumn([{name: 'user_id', referencedColumnName: 'id'}])
+  user: User | undefined;
 }

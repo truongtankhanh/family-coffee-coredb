@@ -5,5 +5,6 @@ export declare class ProductImage extends BaseEntity {
     productId: string | undefined;
     imageUrl: string | undefined;
     isMain: boolean | undefined;
+    thumbnailUrl: string | undefined;
     product: Product | undefined;
 }

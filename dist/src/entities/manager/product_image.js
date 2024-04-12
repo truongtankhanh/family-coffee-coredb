@@ -38,6 +38,14 @@ __decorate([
     __metadata("design:type", Boolean)
 ], ProductImage.prototype, "isMain", void 0);
 __decorate([
+    (0, typeorm_1.Column)('text', {
+        name: 'thumbnail_url',
+        nullable: true,
+        comment: 'URL đường dẫn đến ảnh thu gọn của ảnh chính',
+    }),
+    __metadata("design:type", String)
+], ProductImage.prototype, "thumbnailUrl", void 0);
+__decorate([
     (0, typeorm_1.ManyToOne)(() => product_1.Product, _object => _object.images),
     (0, typeorm_1.JoinColumn)([{ name: 'product_id', referencedColumnName: 'id' }]),
     __metadata("design:type", product_1.Product)

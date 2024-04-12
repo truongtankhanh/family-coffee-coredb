@@ -1,10 +1,12 @@
+import { User } from '../manager';
 import { Restaurant } from './restaurant';
 import { BaseEntity } from '../base-entity';
 export declare class Feedback extends BaseEntity {
     constructor();
-    customerName: string | undefined;
     message: string | undefined;
-    restaurantId: string;
+    restaurantId: string | undefined;
     rating: number | undefined;
-    restaurant: Restaurant;
+    userId: string | undefined;
+    restaurant: Restaurant | undefined;
+    user: User | undefined;
 }

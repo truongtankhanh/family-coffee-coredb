@@ -36,6 +36,14 @@ __decorate([
     __metadata("design:type", Number)
 ], Product.prototype, "price", void 0);
 __decorate([
+    (0, typeorm_1.Column)('float', { comment: 'Dung tích sản phẩm' }),
+    __metadata("design:type", Number)
+], Product.prototype, "capacity", void 0);
+__decorate([
+    (0, typeorm_1.Column)('int', { comment: 'Số lượng sản phẩm còn hàng' }),
+    __metadata("design:type", Number)
+], Product.prototype, "stock", void 0);
+__decorate([
     (0, typeorm_1.Column)('enum', {
         name: 'is_active',
         comment: 'Trạng thái hoạt động của sản phẩm (active/inactive)',

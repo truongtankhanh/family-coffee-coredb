@@ -1,13 +1,15 @@
 import {v4 as uuidv4} from 'uuid';
-import {Column, Entity} from 'typeorm';
+import {Column, Entity, OneToMany} from 'typeorm';
+import {Order} from './order';
 import {BaseEntity} from '../base-entity';
+import {BlogPost, Comment, Feedback} from '../maketing';
 import {ACTIVE_STATUS, ActiveStatus, ROLE_TYPE, RoleType} from '../../enum';
 
-@Entity('account', {
+@Entity('users', {
   schema: 'family_coffee_db',
-  comment: 'Lưu trữ thông tin của người dùng',
+  comment: 'Lưu trữ thông tin người dùng cho quán cà phê',
 })
-export class Account extends BaseEntity {
+export class User extends BaseEntity {
   constructor() {
     super();
     this.id = uuidv4();
@@ -23,7 +25,7 @@ export class Account extends BaseEntity {
 
   @Column('varchar', {
     name: 'password',
-    length: 50,
+    length: 255,
     comment: 'Mật khẩu được mã hóa của người dùng',
   })
   password: string | undefined;
@@ -68,5 +70,17 @@ export class Account extends BaseEntity {
     nullable: true,
     comment: 'Lưu trữ token JWT cho mỗi người dùng',
   })
-  jwtToken: string;
+  jwtToken: string | undefined;
+
+  @OneToMany(() => Order, _object => _object.user)
+  orders: Promise<Order[]> | undefined;
+
+  @OneToMany(() => BlogPost, _object => _object.user)
+  blogs: Promise<BlogPost[]> | undefined;
+
+  @OneToMany(() => Comment, _object => _object.user)
+  comments: Promise<Comment[]> | undefined;
+
+  @OneToMany(() => Feedback, _object => _object.user)
+  feedbacks: Promise<Feedback[]> | undefined;
 }

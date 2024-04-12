@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.BlogPost = void 0;
 const uuid_1 = require("uuid");
 const typeorm_1 = require("typeorm");
+const manager_1 = require("../manager");
 const comment_1 = require("./comment");
 const base_entity_1 = require("../base-entity");
 const enum_1 = require("../../enum");
@@ -31,25 +32,6 @@ __decorate([
     __metadata("design:type", String)
 ], BlogPost.prototype, "content", void 0);
 __decorate([
-    (0, typeorm_1.Column)('nvarchar', {
-        name: 'author',
-        length: 255,
-        comment: 'Tác giả bài viết',
-    }),
-    __metadata("design:type", String)
-], BlogPost.prototype, "author", void 0);
-__decorate([
-    (0, typeorm_1.Column)('text', { name: 'category', comment: 'Danh mục của bài viết' }),
-    __metadata("design:type", String)
-], BlogPost.prototype, "category", void 0);
-__decorate([
-    (0, typeorm_1.Column)('datetime', {
-        name: 'published_at',
-        default: () => 'CURRENT_TIMESTAMP',
-    }),
-    __metadata("design:type", Date)
-], BlogPost.prototype, "publishedAt", void 0);
-__decorate([
     (0, typeorm_1.Column)('enum', {
         name: 'is_active',
         comment: 'Trạng thái hoạt động của bài viết (active/inactive)',
@@ -59,9 +41,18 @@ __decorate([
     __metadata("design:type", String)
 ], BlogPost.prototype, "isActive", void 0);
 __decorate([
-    (0, typeorm_1.OneToMany)(() => comment_1.Comment, comment => comment.blogPost),
+    (0, typeorm_1.Column)('varchar', { name: 'user_id', length: 36 }),
+    __metadata("design:type", String)
+], BlogPost.prototype, "userId", void 0);
+__decorate([
+    (0, typeorm_1.OneToMany)(() => comment_1.Comment, _object => _object.blogPost),
     __metadata("design:type", Promise)
 ], BlogPost.prototype, "comments", void 0);
+__decorate([
+    (0, typeorm_1.ManyToOne)(() => manager_1.User, _object => _object.blogs),
+    (0, typeorm_1.JoinColumn)([{ name: 'user_id', referencedColumnName: 'id' }]),
+    __metadata("design:type", manager_1.User)
+], BlogPost.prototype, "user", void 0);
 exports.BlogPost = BlogPost = __decorate([
     (0, typeorm_1.Entity)('blog_posts', {
         schema: 'family_coffee_db',

@@ -8,7 +8,8 @@ export declare class Restaurant extends BaseEntity {
     phoneNumber: string | undefined;
     email: string | undefined;
     workingHours: string | undefined;
+    socialMedia: string | undefined;
     image: string | undefined;
     isActive: ActiveStatus | undefined;
-    feedback: Feedback[];
+    feedback: Promise<Feedback[]> | undefined;
 }

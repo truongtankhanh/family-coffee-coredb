@@ -12,10 +12,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Order = void 0;
 const uuid_1 = require("uuid");
 const typeorm_1 = require("typeorm");
-const enum_1 = require("../../enum");
-const customer_1 = require("./customer");
-const order_detail_1 = require("./order-detail");
+const user_1 = require("./user");
 const base_entity_1 = require("../base-entity");
+const order_history_1 = require("./order-history");
+const enum_1 = require("../../enum");
 let Order = class Order extends base_entity_1.BaseEntity {
     constructor() {
         super();
@@ -23,26 +23,6 @@ let Order = class Order extends base_entity_1.BaseEntity {
     }
 };
 exports.Order = Order;
-__decorate([
-    (0, typeorm_1.Column)('datetime', { name: 'order_date', comment: 'Ngày đặt hàng' }),
-    __metadata("design:type", Date)
-], Order.prototype, "orderDate", void 0);
-__decorate([
-    (0, typeorm_1.Column)('enum', {
-        name: 'status',
-        comment: 'Trạng thái đơn hàng',
-        enum: Object.values(enum_1.ORDER_STATUS),
-    }),
-    __metadata("design:type", String)
-], Order.prototype, "status", void 0);
-__decorate([
-    (0, typeorm_1.Column)('enum', {
-        name: 'payment_status',
-        comment: 'Trạng thái thanh toán',
-        enum: Object.values(enum_1.PAYMENT_STATUS),
-    }),
-    __metadata("design:type", String)
-], Order.prototype, "paymentStatus", void 0);
 __decorate([
     (0, typeorm_1.Column)('decimal', {
         name: 'total_amount',
@@ -67,18 +47,50 @@ __decorate([
     __metadata("design:type", String)
 ], Order.prototype, "note", void 0);
 __decorate([
-    (0, typeorm_1.Column)('varchar', { name: 'customer_id', length: 36 }),
+    (0, typeorm_1.Column)('enum', {
+        name: 'order_status',
+        comment: 'Trạng thái đơn hàng',
+        enum: Object.values(enum_1.ORDER_STATUS),
+    }),
     __metadata("design:type", String)
-], Order.prototype, "customerId", void 0);
+], Order.prototype, "orderStatus", void 0);
 __decorate([
-    (0, typeorm_1.ManyToOne)(() => customer_1.Customer, user => user.orders),
-    (0, typeorm_1.JoinColumn)([{ name: 'customer_id', referencedColumnName: 'id' }]),
-    __metadata("design:type", customer_1.Customer)
-], Order.prototype, "customer", void 0);
+    (0, typeorm_1.Column)('enum', {
+        name: 'payment_status',
+        comment: 'Trạng thái thanh toán',
+        enum: Object.values(enum_1.PAYMENT_STATUS),
+    }),
+    __metadata("design:type", String)
+], Order.prototype, "paymentStatus", void 0);
 __decorate([
-    (0, typeorm_1.OneToMany)(() => order_detail_1.OrderDetail, orderDetail => orderDetail.order),
+    (0, typeorm_1.Column)('datetime', {
+        name: 'paid_at',
+        nullable: true,
+        comment: 'Thời điểm khách hàng thanh toán cho đơn hàng',
+    }),
+    __metadata("design:type", Date)
+], Order.prototype, "paidAt", void 0);
+__decorate([
+    (0, typeorm_1.Column)('datetime', {
+        name: 'cancel_at',
+        nullable: true,
+        comment: 'Thời điểm khách hàng huỷ đơn hàng',
+    }),
+    __metadata("design:type", Date)
+], Order.prototype, "cancelAt", void 0);
+__decorate([
+    (0, typeorm_1.Column)('varchar', { name: 'user_id', length: 36 }),
+    __metadata("design:type", String)
+], Order.prototype, "userId", void 0);
+__decorate([
+    (0, typeorm_1.ManyToOne)(() => user_1.User, _object => _object.orders),
+    (0, typeorm_1.JoinColumn)([{ name: 'user_id', referencedColumnName: 'id' }]),
+    __metadata("design:type", user_1.User)
+], Order.prototype, "user", void 0);
+__decorate([
+    (0, typeorm_1.OneToMany)(() => order_history_1.OrderHistory, _object => _object.order),
     __metadata("design:type", Promise)
-], Order.prototype, "orderDetails", void 0);
+], Order.prototype, "orderHistories", void 0);
 exports.Order = Order = __decorate([
     (0, typeorm_1.Entity)('orders', {
         schema: 'family_coffee_db',

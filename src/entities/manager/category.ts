@@ -6,7 +6,7 @@ import {BaseEntity} from '../base-entity';
 
 @Entity('categories', {
   schema: 'family_coffee_db',
-  comment: 'Lưu trữ danh mục sản phẩm',
+  comment: 'Lưu trữ danh mục sản phẩm cho quán cà phê',
 })
 export class Category extends BaseEntity {
   constructor() {
@@ -36,6 +36,6 @@ export class Category extends BaseEntity {
   })
   parentId: number | undefined;
 
-  @OneToMany(() => Product, product => product.category)
+  @OneToMany(() => Product, _object => _object.category)
   products: Promise<Product[]> | undefined;
 }

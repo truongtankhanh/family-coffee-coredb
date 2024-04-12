@@ -1,13 +1,12 @@
 import { Order } from './order';
 import { Product } from './product';
 import { BaseEntity } from '../base-entity';
-export declare class OrderDetail extends BaseEntity {
+export declare class OrderHistory extends BaseEntity {
     constructor();
-    productId: number | undefined;
     quantity: number | undefined;
-    unitPrice: number | undefined;
     subtotal: number | undefined;
-    orderId: string;
+    orderId: string | undefined;
     order: Order | undefined;
+    productId: number | undefined;
     product: Product | undefined;
 }

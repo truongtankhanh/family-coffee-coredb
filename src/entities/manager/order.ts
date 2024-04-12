@@ -1,14 +1,14 @@
 import {v4 as uuidv4} from 'uuid';
 import {Column, Entity, JoinColumn, ManyToOne, OneToMany} from 'typeorm';
+import {User} from './user';
+import {BaseEntity} from '../base-entity';
+import {OrderHistory} from './order-history';
 import {
   ORDER_STATUS,
   PAYMENT_STATUS,
   TypeOrderStatus,
   TypePaymentStatus,
 } from '../../enum';
-import {Customer} from './customer';
-import {OrderDetail} from './order-detail';
-import {BaseEntity} from '../base-entity';
 
 @Entity('orders', {
   schema: 'family_coffee_db',
@@ -19,23 +19,6 @@ export class Order extends BaseEntity {
     super();
     this.id = uuidv4();
   }
-
-  @Column('datetime', {name: 'order_date', comment: 'Ngày đặt hàng'})
-  orderDate: Date | undefined;
-
-  @Column('enum', {
-    name: 'status',
-    comment: 'Trạng thái đơn hàng',
-    enum: Object.values(ORDER_STATUS),
-  })
-  status: TypeOrderStatus | undefined;
-
-  @Column('enum', {
-    name: 'payment_status',
-    comment: 'Trạng thái thanh toán',
-    enum: Object.values(PAYMENT_STATUS),
-  })
-  paymentStatus: TypePaymentStatus | undefined;
 
   @Column('decimal', {
     name: 'total_amount',
@@ -56,13 +39,41 @@ export class Order extends BaseEntity {
   @Column('text', {comment: 'Ghi chú của khách hàng'})
   note: string | undefined;
 
-  @Column('varchar', {name: 'customer_id', length: 36})
-  customerId: string;
+  @Column('enum', {
+    name: 'order_status',
+    comment: 'Trạng thái đơn hàng',
+    enum: Object.values(ORDER_STATUS),
+  })
+  orderStatus: TypeOrderStatus | undefined;
 
-  @ManyToOne(() => Customer, user => user.orders)
-  @JoinColumn([{name: 'customer_id', referencedColumnName: 'id'}])
-  customer: Customer | undefined;
+  @Column('enum', {
+    name: 'payment_status',
+    comment: 'Trạng thái thanh toán',
+    enum: Object.values(PAYMENT_STATUS),
+  })
+  paymentStatus: TypePaymentStatus | undefined;
 
-  @OneToMany(() => OrderDetail, orderDetail => orderDetail.order)
-  orderDetails: Promise<OrderDetail[]> | undefined;
+  @Column('datetime', {
+    name: 'paid_at',
+    nullable: true,
+    comment: 'Thời điểm khách hàng thanh toán cho đơn hàng',
+  })
+  paidAt: Date | undefined;
+
+  @Column('datetime', {
+    name: 'cancel_at',
+    nullable: true,
+    comment: 'Thời điểm khách hàng huỷ đơn hàng',
+  })
+  cancelAt: Date | undefined;
+
+  @Column('varchar', {name: 'user_id', length: 36})
+  userId: string | undefined;
+
+  @ManyToOne(() => User, _object => _object.orders)
+  @JoinColumn([{name: 'user_id', referencedColumnName: 'id'}])
+  user: User | undefined;
+
+  @OneToMany(() => OrderHistory, _object => _object.order)
+  orderHistories: Promise<OrderHistory[]> | undefined;
 }

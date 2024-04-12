@@ -15,13 +15,12 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./order"), exports);
-__exportStar(require("./order-detail"), exports);
+__exportStar(require("./order-history"), exports);
 __exportStar(require("./product"), exports);
 __exportStar(require("./product_image"), exports);
-__exportStar(require("./customer"), exports);
 __exportStar(require("./category"), exports);
 __exportStar(require("./payment"), exports);
 __exportStar(require("./payment-history"), exports);
 __exportStar(require("./product-category"), exports);
-__exportStar(require("./account"), exports);
+__exportStar(require("./user"), exports);
 //# sourceMappingURL=index.js.map

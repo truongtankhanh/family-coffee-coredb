@@ -7,8 +7,10 @@ export declare class Product extends BaseEntity {
     name: string | undefined;
     description: string | undefined;
     price: number | undefined;
+    capacity: number | undefined;
+    stock: number | undefined;
     isActive: ActiveStatus | undefined;
-    categoryId: string;
+    categoryId: string | undefined;
     category: Category | undefined;
     images: Promise<ProductImage[]> | undefined;
 }

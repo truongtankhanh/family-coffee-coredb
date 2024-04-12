@@ -24,6 +24,12 @@ export class Product extends BaseEntity {
   @Column('float', {comment: 'Giá sản phẩm'})
   price: number | undefined;
 
+  @Column('float', {comment: 'Dung tích sản phẩm'})
+  capacity: number | undefined;
+
+  @Column('int', {comment: 'Số lượng sản phẩm còn hàng'})
+  stock: number | undefined;
+
   @Column('enum', {
     name: 'is_active',
     comment: 'Trạng thái hoạt động của sản phẩm (active/inactive)',
@@ -33,7 +39,7 @@ export class Product extends BaseEntity {
   isActive: ActiveStatus | undefined;
 
   @Column('varchar', {name: 'category_id', length: 36})
-  categoryId: string;
+  categoryId: string | undefined;
 
   @ManyToOne(() => Category, _object => _object.products)
   @JoinColumn([{name: 'category_id', referencedColumnName: 'id'}])

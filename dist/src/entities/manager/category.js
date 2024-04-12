@@ -48,13 +48,13 @@ __decorate([
     __metadata("design:type", Number)
 ], Category.prototype, "parentId", void 0);
 __decorate([
-    (0, typeorm_1.OneToMany)(() => product_1.Product, product => product.category),
+    (0, typeorm_1.OneToMany)(() => product_1.Product, _object => _object.category),
     __metadata("design:type", Promise)
 ], Category.prototype, "products", void 0);
 exports.Category = Category = __decorate([
     (0, typeorm_1.Entity)('categories', {
         schema: 'family_coffee_db',
-        comment: 'Lưu trữ danh mục sản phẩm',
+        comment: 'Lưu trữ danh mục sản phẩm cho quán cà phê',
     }),
     __metadata("design:paramtypes", [])
 ], Category);
