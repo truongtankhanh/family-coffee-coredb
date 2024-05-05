@@ -1,5 +1,4 @@
 import {v4 as uuidv4} from 'uuid';
-import {ACTIVE_STATUS, ActiveStatus} from '@apps/enums';
 import {
   Column,
   Entity,
@@ -13,6 +12,7 @@ import {BaseEntity} from '../base-entity';
 import {CategoryEntity} from './category.entity';
 import {ProductImageEntity} from './product-image.entity';
 import {ProductParamsEnity} from './product-params.entity';
+import {ACTIVE_STATUS, ActiveStatus} from '../../../enum';
 
 @Entity('products', {
   schema: 'family_coffee_db',

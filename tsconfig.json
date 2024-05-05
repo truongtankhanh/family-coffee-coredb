@@ -22,11 +22,6 @@
     "moduleResolution": "node",
     "strictPropertyInitialization": false,
     "noUnusedParameters": true,
-    "paths": {
-      "@apps/config": ["src/config/index.ts"],
-      "@apps/entities": ["src/entities/index.ts"],
-      "@apps/enums": ["src/enum/index.ts"]
-    }
   },
   "include": [
     "src/**/*.ts",

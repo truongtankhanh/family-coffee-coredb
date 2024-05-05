@@ -11,11 +11,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserEntity = void 0;
 const uuid_1 = require("uuid");
-const enums_1 = require("@apps/enums");
 const typeorm_1 = require("typeorm");
 const base_entity_1 = require("../base-entity");
 const order_entity_1 = require("./order.entity");
 const user_role_entity_1 = require("./user-role.entity");
+const enum_1 = require("../../../enum");
 const maketing_1 = require("../maketing");
 let UserEntity = class UserEntity extends base_entity_1.BaseEntity {
     constructor() {
@@ -66,8 +66,8 @@ __decorate([
     (0, typeorm_1.Column)('enum', {
         name: 'is_active',
         comment: 'Trạng thái hoạt động của tài khoản (active/inactive)',
-        enum: Object.values(enums_1.ACTIVE_STATUS),
-        default: enums_1.ACTIVE_STATUS.ACTIVE,
+        enum: Object.values(enum_1.ACTIVE_STATUS),
+        default: enum_1.ACTIVE_STATUS.ACTIVE,
     }),
     __metadata("design:type", String)
 ], UserEntity.prototype, "isActive", void 0);

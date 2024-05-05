@@ -1,7 +1,7 @@
-import { ActiveStatus } from '@apps/enums';
 import { UserEntity } from '../manager';
 import { BaseEntity } from '../base-entity';
 import { CommentEntity } from './comment.entity';
+import { ActiveStatus } from '../../../enum';
 export declare class BlogPostEntity extends BaseEntity {
     constructor();
     title: string | undefined;

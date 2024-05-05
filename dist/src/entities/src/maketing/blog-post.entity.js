@@ -11,11 +11,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BlogPostEntity = void 0;
 const uuid_1 = require("uuid");
-const enums_1 = require("@apps/enums");
 const typeorm_1 = require("typeorm");
 const manager_1 = require("../manager");
 const base_entity_1 = require("../base-entity");
 const comment_entity_1 = require("./comment.entity");
+const enum_1 = require("../../../enum");
 let BlogPostEntity = class BlogPostEntity extends base_entity_1.BaseEntity {
     constructor() {
         super();
@@ -35,8 +35,8 @@ __decorate([
     (0, typeorm_1.Column)('enum', {
         name: 'is_active',
         comment: 'Trạng thái hoạt động của bài viết (active/inactive)',
-        enum: Object.values(enums_1.ACTIVE_STATUS),
-        default: enums_1.ACTIVE_STATUS.ACTIVE,
+        enum: Object.values(enum_1.ACTIVE_STATUS),
+        default: enum_1.ACTIVE_STATUS.ACTIVE,
     }),
     __metadata("design:type", String)
 ], BlogPostEntity.prototype, "isActive", void 0);

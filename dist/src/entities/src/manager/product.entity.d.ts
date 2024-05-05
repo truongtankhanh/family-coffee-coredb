@@ -1,8 +1,8 @@
-import { ActiveStatus } from '@apps/enums';
 import { BaseEntity } from '../base-entity';
 import { CategoryEntity } from './category.entity';
 import { ProductImageEntity } from './product-image.entity';
 import { ProductParamsEnity } from './product-params.entity';
+import { ActiveStatus } from '../../../enum';
 export declare class ProductEntity extends BaseEntity {
     constructor();
     name: string | undefined;

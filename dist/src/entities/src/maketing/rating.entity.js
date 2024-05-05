@@ -12,8 +12,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.RatingEntity = void 0;
 const uuid_1 = require("uuid");
 const typeorm_1 = require("typeorm");
-const enums_1 = require("@apps/enums");
 const base_entity_1 = require("../base-entity");
+const enum_1 = require("../../../enum");
 const comment_entity_1 = require("./comment.entity");
 const feedback_entity_1 = require("./feedback.entity");
 let RatingEntity = class RatingEntity extends base_entity_1.BaseEntity {
@@ -26,7 +26,7 @@ exports.RatingEntity = RatingEntity;
 __decorate([
     (0, typeorm_1.Column)('enum', {
         comment: 'Tên đánh giá',
-        enum: Object.keys(enums_1.RATING_VALUE),
+        enum: Object.keys(enum_1.RATING_VALUE),
     }),
     __metadata("design:type", String)
 ], RatingEntity.prototype, "name", void 0);

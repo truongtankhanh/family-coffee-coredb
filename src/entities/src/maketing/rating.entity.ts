@@ -1,8 +1,8 @@
 import {v4 as uuidv4} from 'uuid';
 import {Column, Entity, OneToMany} from 'typeorm';
-import {RATING_VALUE} from '@apps/enums';
 
 import {BaseEntity} from '../base-entity';
+import {RATING_VALUE} from '../../../enum';
 import {CommentEntity} from './comment.entity';
 import {FeedbackEntity} from './feedback.entity';
 

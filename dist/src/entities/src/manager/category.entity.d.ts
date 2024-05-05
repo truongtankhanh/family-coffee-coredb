@@ -1,6 +1,6 @@
-import { ActiveStatus } from '@apps/enums';
 import { BaseEntity } from '../base-entity';
 import { ProductEntity } from './product.entity';
+import { ActiveStatus } from '../../../enum';
 import { ProductParamsEnity } from './product-params.entity';
 export declare class CategoryEntity extends BaseEntity {
     constructor();

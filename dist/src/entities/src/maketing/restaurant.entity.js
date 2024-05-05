@@ -12,9 +12,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.RestaurantEntity = void 0;
 const uuid_1 = require("uuid");
 const typeorm_1 = require("typeorm");
-const enums_1 = require("@apps/enums");
 const base_entity_1 = require("../base-entity");
 const feedback_entity_1 = require("./feedback.entity");
+const enum_1 = require("../../../enum");
 let RestaurantEntity = class RestaurantEntity extends base_entity_1.BaseEntity {
     constructor() {
         super();
@@ -69,8 +69,8 @@ __decorate([
     (0, typeorm_1.Column)('enum', {
         name: 'is_active',
         comment: 'Trạng thái hoạt động của nhà hàng (active/inactive)',
-        enum: Object.values(enums_1.ACTIVE_STATUS),
-        default: enums_1.ACTIVE_STATUS.ACTIVE,
+        enum: Object.values(enum_1.ACTIVE_STATUS),
+        default: enum_1.ACTIVE_STATUS.ACTIVE,
     }),
     __metadata("design:type", String)
 ], RestaurantEntity.prototype, "isActive", void 0);

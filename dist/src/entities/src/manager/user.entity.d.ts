@@ -1,7 +1,7 @@
-import { ActiveStatus } from '@apps/enums';
 import { BaseEntity } from '../base-entity';
 import { OrderEntity } from './order.entity';
 import { UserRoleEntity } from './user-role.entity';
+import { ActiveStatus } from '../../../enum';
 import { BlogPostEntity, CommentEntity, FeedbackEntity } from '../maketing';
 export declare class UserEntity extends BaseEntity {
     constructor();

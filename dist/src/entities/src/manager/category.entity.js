@@ -12,9 +12,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.CategoryEntity = void 0;
 const uuid_1 = require("uuid");
 const typeorm_1 = require("typeorm");
-const enums_1 = require("@apps/enums");
 const base_entity_1 = require("../base-entity");
 const product_entity_1 = require("./product.entity");
+const enum_1 = require("../../../enum");
 const product_params_entity_1 = require("./product-params.entity");
 let CategoryEntity = class CategoryEntity extends base_entity_1.BaseEntity {
     constructor() {
@@ -35,8 +35,8 @@ __decorate([
     (0, typeorm_1.Column)('enum', {
         name: 'is_active',
         comment: 'Trạng thái hoạt động của danh mục',
-        enum: Object.values(enums_1.ACTIVE_STATUS),
-        default: enums_1.ACTIVE_STATUS.ACTIVE,
+        enum: Object.values(enum_1.ACTIVE_STATUS),
+        default: enum_1.ACTIVE_STATUS.ACTIVE,
     }),
     __metadata("design:type", String)
 ], CategoryEntity.prototype, "isActive", void 0);

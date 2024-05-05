@@ -1,9 +1,9 @@
 import {v4 as uuidv4} from 'uuid';
 import {Column, Entity, OneToMany} from 'typeorm';
-import {ACTIVE_STATUS, ActiveStatus} from '@apps/enums';
 
 import {BaseEntity} from '../base-entity';
 import {FeedbackEntity} from './feedback.entity';
+import {ACTIVE_STATUS, ActiveStatus} from '../../../enum';
 
 @Entity('restaurant', {
   schema: 'family_coffee_db',

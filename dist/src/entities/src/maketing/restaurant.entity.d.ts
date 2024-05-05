@@ -1,6 +1,6 @@
-import { ActiveStatus } from '@apps/enums';
 import { BaseEntity } from '../base-entity';
 import { FeedbackEntity } from './feedback.entity';
+import { ActiveStatus } from '../../../enum';
 export declare class RestaurantEntity extends BaseEntity {
     constructor();
     description: string | undefined;

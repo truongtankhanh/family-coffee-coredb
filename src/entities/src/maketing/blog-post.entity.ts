@@ -1,10 +1,10 @@
 import {v4 as uuidv4} from 'uuid';
-import {ACTIVE_STATUS, ActiveStatus} from '@apps/enums';
 import {Column, Entity, JoinColumn, ManyToOne, OneToMany} from 'typeorm';
 
 import {UserEntity} from '../manager';
 import {BaseEntity} from '../base-entity';
 import {CommentEntity} from './comment.entity';
+import {ACTIVE_STATUS, ActiveStatus} from '../../../enum';
 
 @Entity('blog_posts', {
   schema: 'family_coffee_db',

@@ -1,10 +1,10 @@
 import {v4 as uuidv4} from 'uuid';
-import {ACTIVE_STATUS, ActiveStatus} from '@apps/enums';
 import {Column, Entity, JoinColumn, ManyToOne, OneToMany} from 'typeorm';
 
 import {BaseEntity} from '../base-entity';
 import {OrderEntity} from './order.entity';
 import {UserRoleEntity} from './user-role.entity';
+import {ACTIVE_STATUS, ActiveStatus} from '../../../enum';
 import {BlogPostEntity, CommentEntity, FeedbackEntity} from '../maketing';
 
 @Entity('users', {
