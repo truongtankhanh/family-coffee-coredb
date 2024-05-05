@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Mới",
+    "description": "Đơn hàng mới được tạo và chưa được xử lý"
+  },
+  {
+    "name": "Đang xử lý",
+    "description": "Đơn hàng đang được xử lý và chuẩn bị để giao"
+  },
+  {
+    "name": "Đã giao hàng",
+    "description": "Đơn hàng đã được giao cho khách hàng"
+  },
+  {
+    "name": "Hủy",
+    "description": "Đơn hàng đã bị hủy bỏ"
+  },
+  {
+    "name": "Hoàn thành",
+    "description": "Đơn hàng đã được hoàn thành và giao hàng thành công"
+  }
+]

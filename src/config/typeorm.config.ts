@@ -1,5 +1,6 @@
 import {config} from 'dotenv';
 import {DataSourceOptions} from 'typeorm';
+
 import * as Entities from '../entities';
 import {databaseOptions} from './database-options';
 

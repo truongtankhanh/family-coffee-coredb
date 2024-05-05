@@ -1,0 +1,57 @@
+[
+  {
+    "id": "YOUR_GENERATED_UUID",
+    "paymentMethod": "CASH",
+    "description": "Thanh toán bằng tiền mặt"
+  },
+  {
+    "id": "YOUR_GENERATED_UUID",
+    "paymentMethod": "CREDIT_CARD",
+    "description": "Thanh toán bằng thẻ tín dụng Visa"
+  },
+  {
+    "id": "YOUR_GENERATED_UUID",
+    "paymentMethod": "BANK_TRANSFER",
+    "description": "Thanh toán bằng chuyển khoản ngân hàng"
+  },
+  {
+    "id": "YOUR_GENERATED_UUID",
+    "paymentMethod": "EWALLET",
+    "description": "Thanh toán bằng ví điện tử"
+  },
+  {
+    "id": "YOUR_GENERATED_UUID",
+    "paymentMethod": "PAYPAL",
+    "description": "Thanh toán bằng PayPal"
+  },
+  {
+    "id": "YOUR_GENERATED_UUID",
+    "paymentMethod": "ZALOPAY",
+    "description": "Thanh toán bằng ZaloPay"
+  },
+  {
+    "id": "YOUR_GENERATED_UUID",
+    "paymentMethod": "MOMO",
+    "description": "Thanh toán bằng MoMo"
+  },
+  {
+    "id": "YOUR_GENERATED_UUID",
+    "paymentMethod": "APPLE_PAY",
+    "description": "Thanh toán bằng Apple Pay"
+  },
+  {
+    "id": "YOUR_GENERATED_UUID",
+    "paymentMethod": "GOOGLE_PAY",
+    "description": "Thanh toán bằng Google Pay"
+  },
+  {
+    "id": "YOUR_GENERATED_UUID",
+    "paymentMethod": "VOUCHER",
+    "description": "Thanh toán bằng phiếu giảm giá"
+  },
+  {
+    "id": "YOUR_GENERATED_UUID",
+    "paymentMethod": "OTHER",
+    "description": "Thanh toán bằng phương thức khác"
+  }
+]

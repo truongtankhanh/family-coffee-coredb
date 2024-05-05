@@ -1,0 +1,3249 @@
+[
+  {
+    "name": "Cà phê",
+    "description": "Danh mục bao gồm các loại cà phê pha máy, cà phê phin",
+    "isactive": "active",
+    "parentId": null,
+    "children": [
+      {
+        "name": "Cà phê pha máy",
+        "description": "Danh mục bao gồm các loại cà phê pha bằng máy",
+        "isactive": "active",
+        "children": [
+          {
+            "name": "Espresso",
+            "description": "Cà phê nguyên chất rang đậm, pha bằng máy espresso",
+            "isactive": "active",
+            "price": 25000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Đường", "Bọt sữa"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Americano",
+            "description": "Espresso pha loãng với nước nóng",
+            "isactive": "active",
+            "price": 20000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Đường", "Bọt sữa"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Cappuccino",
+            "description": "Espresso kết hợp với sữa tươi và bọt sữa",
+            "isactive": "active",
+            "price": 30000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Đường", "Bọt sữa", "Sô cô la"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Latte",
+            "description": "Espresso kết hợp với sữa tươi",
+            "isactive": "active",
+            "price": 28000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Đường", "Bọt sữa", "Sô cô la"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Mocha",
+            "description": "Espresso kết hợp với sữa tươi, sô cô la và bọt sữa",
+            "isactive": "active",
+            "price": 32000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Đường", "Bọt sữa", "Sô cô la"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Macchiato",
+            "description": "Espresso phủ một lớp bọt sữa mỏng",
+            "isactive": "active",
+            "price": 22000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Đường", "Bọt sữa"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Cold Brew",
+            "description": "Cà phê pha bằng nước lạnh trong thời gian dài",
+            "isactive": "active",
+            "price": 25000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Đường", "Bọt sữa"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Nitro Cold Brew",
+            "description": "Cold Brew pha với khí nitơ tạo bọt mịn",
+            "isactive": "active",
+            "price": 30000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Đường"],
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "name": "Cà phê phin",
+        "description": "Danh mục bao gồm các loại cà phê pha bằng phin",
+        "isactive": "active",
+        "children": [
+          {
+            "name": "Cà phê đen",
+            "description": "Cà phê nguyên chất pha bằng phin với nước nóng",
+            "isactive": "active",
+            "price": 15000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Đường"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Cà phê sữa",
+            "description": "Cà phê đen pha với sữa tươi",
+            "isactive": "active",
+            "price": 18000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Đường"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Cà phê đá",
+            "description": "Cà phê đen pha với đá",
+            "isactive": "active",
+            "price": 15000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Đường"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Cà phê cốt dừa",
+            "description": "Cà phê đen pha với sữa dừa",
+            "isactive": "active",
+            "price": 20000,
+            "size": ["Size S", "Size M", "Size L"],
+            "toppings": ["Sữa dừa", "Đường"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Bạc xỉu",
+            "description": "Cà phê đen pha với trứng và sữa đặc",
+            "isactive": "active",
+            "price": 22000,
+            "size": ["Size S", "Size M"],
+            "toppings": ["Trứng", "Sữa đặc"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Cà phê bọt",
+            "description": "Cà phê đen pha với bọt sữa",
+            "isactive": "active",
+            "price": 20000,
+            "size": ["Size S", "Size M"],
+            "toppings": ["Sữa tươi", "Đường"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Cà phê muối",
+            "description": "Cà phê đen pha với muối",
+            "isactive": "active",
+            "price": 16000,
+            "size": ["Size S", "Size M"],
+            "toppings": ["Muối"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Cà phê chanh",
+            "description": "Cà phê đen pha với nước cốt chanh",
+            "isactive": "active",
+            "price": 17000,
+            "size": ["Size S", "Size M"],
+            "toppings": ["Chanh", "Đường"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Cà phê dừa",
+            "description": "Cà phê đen pha với nước cốt dừa",
+            "isactive": "active",
+            "price": 20000,
+            "size": ["Size S", "Size M"],
+            "toppings": ["Sữa dừa", "Đường"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Cà phê cacao",
+            "description": "Cà phê đen pha với bột cacao",
+            "isactive": "active",
+            "price": 18000,
+            "size": ["Size S", "Size M"],
+            "toppings": ["Sữa tươi", "Đường", "Bột cacao"],
+            "status": "AVAILABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trà",
+    "description": "Danh mục bao gồm các loại trà xanh, trà đen, trà thảo mộc và trà trái cây.",
+    "isactive": "active",
+    "parentId": null,
+    "children": [
+      {
+        "name": "Trà xanh",
+        "description": "Danh mục bao gồm các loại trà xanh Nhật Bản, trà xanh Trung Quốc và trà xanh Việt Nam.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_TRÀ",
+        "children": [
+          {
+            "name": "Trà xanh Nhật Bản",
+            "description": "Danh mục bao gồm các loại trà xanh Nhật Bản nổi tiếng như Matcha, Sencha, Gyokuro.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Matcha",
+                "description": "Trà xanh được nghiền mịn từ lá trà xanh non, có hương vị thơm ngon, béo ngậy.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Sữa tươi", "Chanh", "Đường"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sencha",
+                "description": "Loại trà xanh phổ biến nhất Nhật Bản, có hương vị thanh mát, dễ uống.",
+                "isactive": "active",
+                "price": 25000,
+                "size": ["Size S", "Size M", "Size L"],
+                "toppings": ["Chanh", "Đường"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Gyokuro",
+                "description": "Loại trà xanh cao cấp nhất Nhật Bản, được trồng che bóng, có hương vị đậm đà, tinh tế.",
+                "isactive": "active",
+                "price": 50000,
+                "size": ["Size S", "Size M"],
+                "toppings": [],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Genmaicha",
+                "description": "Trà xanh pha trộn với gạo lứt rang, có hương vị thơm bùi, đặc trưng.",
+                "isactive": "active",
+                "price": 20000,
+                "size": ["Size S", "Size M", "Size L"],
+                "toppings": ["Chanh", "Đường"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Kukicha",
+                "description": "Trà xanh được làm từ cành và thân cây trà, có hương vị nhẹ nhàng, thanh tao.",
+                "isactive": "active",
+                "price": 22000,
+                "size": ["Size S", "Size M", "Size L"],
+                "toppings": ["Chanh", "Đường"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Hojicha",
+                "description": "Trà xanh rang cháy, có hương vị đậm đà, ấm áp.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size S", "Size M", "Size L"],
+                "toppings": [],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà xanh Trung Quốc",
+            "description": "Danh mục bao gồm các loại trà xanh Trung Quốc nổi tiếng như Long Tỉnh, Bi Luo Chun, Tie Guan Yin.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Long Tỉnh",
+                "description": "Trà xanh được thu hoạch từ vùng núi Long Tỉnh, có hương vị thanh tao, tinh tế.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Chanh", "Đường"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Bi Luo Chun",
+                "description": "Trà xanh được làm từ những búp non hình xoắn ốc, có hương vị thơm ngon, ngọt ngào.",
+                "isactive": "active",
+                "price": 40000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Chanh", "Đường"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Tie Guan Yin",
+                "description": "Loại trà xanh ô long nổi tiếng nhất Trung Quốc, có hương vị đậm đà, hậu ngọt.",
+                "isactive": "active",
+                "price": 50000,
+                "size": ["Size M", "Size L"],
+                "toppings": [],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mao Feng",
+                "description": "Trà xanh được làm từ những búp non phủ lông tơ, có hương vị thanh mát, dễ uống.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Chanh", "Đường"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Dong Ding",
+                "description": "Loại trà xanh được trồng trên núi cao, có hương vị đậm đà, mạnh mẽ.",
+                "isactive": "active",
+                "price": 45000,
+                "size": ["Size M", "Size L"],
+                "toppings": [],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Longjing Cha",
+                "description": "Loại trà xanh được làm từ những búp non hái vào mùa xuân, có hương vị thanh tao, tinh tế.",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Chanh", "Đường"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà xanh Việt Nam",
+            "description": "Danh mục bao gồm các loại trà xanh Việt Nam nổi tiếng như Thái Nguyên, Lục An, Mộc Châu.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Thái Nguyên",
+                "description": "Trà xanh được thu hoạch từ vùng núi Thái Nguyên, có hương vị đậm đà, hậu ngọt.",
+                "isactive": "active",
+                "price": 25000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Chanh", "Đường"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Lục An",
+                "description": "Loại trà xanh được trồng trên núi Lục An, có hương vị thanh tao, tinh tế.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Chanh", "Đường"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mộc Châu",
+                "description": "Trà xanh được trồng trên cao nguyên Mộc Châu, có hương vị thơm ngon, dễ uống.",
+                "isactive": "active",
+                "price": 22000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Chanh", "Đường"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Tà Xùa",
+                "description": "Loại trà xanh được trồng trên núi Tà Xùa, có hương vị mạnh mẽ, đậm đà.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": [],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Bình Long",
+                "description": "Trà xanh được trồng tại Bình Long, có hương vị thanh mát, dễ chịu.",
+                "isactive": "active",
+                "price": 20000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Chanh", "Đường"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Hồ Xâm",
+                "description": "Loại trà xanh được trồng tại Hồ Xâm, có hương vị đặc trưng, độc đáo.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "toppings": [],
+                "status": "AVAILABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Trà đen",
+        "description": "Danh mục bao gồm các loại trà đen Assam, trà đen Darjeeling, trà đen Ceylon và trà đen Lapsang Souchong.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_TRÀ",
+        "children": [
+          {
+            "name": "Trà đen Assam",
+            "description": "Loại trà đen có hương vị mạnh mẽ, đậm đà, được trồng ở vùng Assam, Ấn Độ.",
+            "isactive": "active",
+            "price": 25000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Chanh", "Đường"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà đen Darjeeling",
+            "description": "Loại trà đen có hương vị thanh tao, tinh tế, được trồng ở vùng Darjeeling, Ấn Độ.",
+            "isactive": "active",
+            "price": 30000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Chanh", "Đường"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà đen Ceylon",
+            "description": "Loại trà đen có hương vị thơm ngon, dễ uống, được trồng ở Sri Lanka.",
+            "isactive": "active",
+            "price": 28000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Chanh", "Đường"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà đen Lapsang Souchong",
+            "description": "Loại trà đen có hương vị khói đặc trưng, được hun khói bằng gỗ thông, được trồng ở Trung Quốc.",
+            "isactive": "active",
+            "price": 35000,
+            "size": ["Size M", "Size L"],
+            "toppings": [],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà đen Earl Grey",
+            "description": "Loại trà đen được pha trộn với tinh dầu cam bergamot, có hương vị thơm mát, dễ chịu.",
+            "isactive": "active",
+            "price": 27000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Sữa tươi", "Chanh", "Đường"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà đen Russian Caravan",
+            "description": "Loại trà đen được pha trộn với các loại gia vị như đinh hương, quế, vani, có hương vị ấm áp, đậm đà.",
+            "isactive": "active",
+            "price": 32000,
+            "size": ["Size M", "Size L"],
+            "toppings": [],
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "name": "Trà thảo mộc",
+        "description": "Danh mục bao gồm các loại trà hoa cúc, trà hoa hồng, trà bạc hà, trà gừng và trà sả.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_TRÀ",
+        "children": [
+          {
+            "name": "Trà hoa cúc",
+            "description": "Loại trà có hương vị thanh mát, dịu nhẹ, giúp thư giãn và giải tỏa căng thẳng.",
+            "isactive": "active",
+            "price": 20000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Mật ong", "Chanh"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà hoa hồng",
+            "description": "Loại trà có hương vị thơm ngon, ngọt ngào, giúp cải thiện tâm trạng và làm đẹp da.",
+            "isactive": "active",
+            "price": 25000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Mật ong", "Sữa tươi"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà bạc hà",
+            "description": "Loại trà có hương vị the mát, giúp tiêu hóa tốt và giảm cân.",
+            "isactive": "active",
+            "price": 18000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Mật ong", "Chanh"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà gừng",
+            "description": "Loại trà có hương vị cay nồng, giúp giữ ấm cơ thể và trị ho cảm.",
+            "isactive": "active",
+            "price": 15000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Mật ong", "Chanh"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà sả",
+            "description": "Loại trà có hương vị thơm nồng, giúp thanh lọc cơ thể và giảm mỡ bụng.",
+            "isactive": "active",
+            "price": 22000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Mật ong", "Chanh"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà Atiso",
+            "description": "Loại trà có hương vị thanh mát, giúp giải độc gan và bảo vệ sức khỏe.",
+            "isactive": "active",
+            "price": 28000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Mật ong", "Chanh"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà La Mã",
+            "description": "Loại trà có hương vị thơm ngon, giúp an thần và cải thiện giấc ngủ.",
+            "isactive": "active",
+            "price": 24000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Mật ong", "Chanh"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà Dứa Dại",
+            "description": "Loại trà có hương vị thanh mát, giúp giảm mỡ máu và tăng cường hệ miễn dịch.",
+            "isactive": "active",
+            "price": 26000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Mật ong", "Chanh"],
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "name": "Trà trái cây",
+        "description": "Danh mục bao gồm các loại trà đào, trà dâu tây, trà chanh dây, trà việt quất và trà vải, v.v...",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_TRÀ",
+        "children": [
+          {
+            "name": "Trà đào",
+            "description": "Loại trà có hương vị thơm ngon, ngọt ngào, được pha chế từ trà xanh và đào tươi.",
+            "isactive": "active",
+            "price": 25000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Trân châu", "Thạch dừa", "Sữa tươi"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà dâu tây",
+            "description": "Loại trà có hương vị chua ngọt, thanh mát, được pha chế từ trà xanh và dâu tây tươi.",
+            "isactive": "active",
+            "price": 27000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Trân châu", "Thạch dừa", "Sữa tươi"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà chanh dây",
+            "description": "Loại trà có hương vị chua thanh, giải nhiệt, được pha chế từ trà xanh và chanh dây tươi.",
+            "isactive": "active",
+            "price": 22000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Trân châu", "Thạch dừa", "Sữa tươi"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà việt quất",
+            "description": "Loại trà có hương vị thơm ngon, giàu vitamin C, được pha chế từ trà xanh và việt quất tươi.",
+            "isactive": "active",
+            "price": 30000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Trân châu", "Thạch dừa", "Sữa tươi"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà vải",
+            "description": "Loại trà có hương vị ngọt thanh, thơm mát, được pha chế từ trà xanh và vải tươi.",
+            "isactive": "active",
+            "price": 24000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Trân châu", "Thạch dừa", "Sữa tươi"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà táo",
+            "description": "Loại trà có hương vị thanh mát, dễ uống, được pha chế từ trà xanh và táo tươi.",
+            "isactive": "active",
+            "price": 20000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Trân châu", "Thạch dừa", "Sữa tươi"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà dứa",
+            "description": "Loại trà có hương vị thơm ngon, ngọt ngào, được pha chế từ trà xanh và dứa tươi.",
+            "isactive": "active",
+            "price": 23000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Trân châu", "Thạch dừa", "Sữa tươi"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà ổi",
+            "description": "Loại trà có hương vị chua ngọt, giải nhiệt, được pha chế từ trà xanh và ổi tươi.",
+            "isactive": "active",
+            "price": 18000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Trân châu", "Thạch dừa", "Sữa tươi"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Trà mận",
+            "description": "Loại trà có hương vị chua thanh, thơm ngon, được pha chế từ trà xanh và mận tươi.",
+            "isactive": "active",
+            "price": 22000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Trân châu", "Thạch dừa", "Mật ong"],
+            "status": "AVAILABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nước uống",
+    "description": "Danh mục bao gồm các loại nước ép trái cây, sinh tố, soda và nước đóng chai.",
+    "isactive": "active",
+    "parentId": null,
+    "children": [
+      {
+        "name": "Nước trái cây",
+        "description": "Danh mục bao gồm các loại nước ép cam, nước ép táo, nước ép cà rốt và nước ép dưa hấu.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_ĐỒ_UỐNG",
+        "children": [
+          {
+            "name": "Nước ép cam",
+            "description": "Loại nước ép có hương vị chua ngọt, thanh mát, giàu vitamin C.",
+            "isactive": "active",
+            "price": 20000,
+            "size": ["Size M", "Size L"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Nước ép táo",
+            "description": "Loại nước ép có hương vị ngọt thanh, thơm ngon, giàu vitamin A.",
+            "isactive": "active",
+            "price": 25000,
+            "size": ["Size M", "Size L"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Nước ép cà rốt",
+            "description": "Loại nước ép có hương vị ngọt nhẹ, thanh mát, tốt cho mắt và hệ tiêu hóa.",
+            "isactive": "active",
+            "price": 20000,
+            "size": ["Size M", "Size L"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Nước ép dưa hấu",
+            "description": "Loại nước ép có hương vị ngọt thanh, mát lạnh, giúp giải nhiệt và thanh lọc cơ thể.",
+            "isactive": "active",
+            "price": 20000,
+            "size": ["Size M", "Size L"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Nước ép ổi",
+            "description": "Loại nước ép có hương vị chua ngọt, thanh mát, giàu vitamin C và chất xơ.",
+            "isactive": "active",
+            "price": 22000,
+            "size": ["Size M", "Size L"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Nước ép xoài",
+            "description": "Loại nước ép có hương vị thơm ngon, ngọt ngào, giàu vitamin A và E.",
+            "isactive": "active",
+            "price": 28000,
+            "size": ["Size M", "Size L"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Nước ép dứa",
+            "description": "Loại nước ép có hương vị chua ngọt, thanh mát, giúp tiêu hóa tốt và tăng cường hệ miễn dịch.",
+            "isactive": "active",
+            "price": 25000,
+            "size": ["Size M", "Size L"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Nước ép bưởi",
+            "description": "Loại nước ép có hương vị chua thanh, giúp giảm cân và đẹp da.",
+            "isactive": "active",
+            "price": 24000,
+            "size": ["Size M", "Size L"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Nước ép cóc",
+            "description": "Loại nước ép có hương vị chua ngọt, thanh mát, giúp giải nhiệt và thanh lọc cơ thể.",
+            "isactive": "active",
+            "price": 20000,
+            "size": ["Size M", "Size L"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Nước ép nho",
+            "description": "Loại nước ép có hương vị ngọt thanh, thơm ngon, giàu vitamin A, C và E.",
+            "isactive": "active",
+            "price": 27000,
+            "size": ["Size M", "Size L"],
+            "status": "AVAILABLE"
+          },
+          {
+            "name": "Nước ép dâu tây",
+            "description": "Loại nước ép có hương vị chua ngọt, thanh mát, giàu vitamin C và chất chống oxy hóa.",
+            "isactive": "active",
+            "price": 25000,
+            "size": ["Size M", "Size L"],
+            "toppings": ["Trân châu", "Thạch dừa", "Mật ong"],
+            "status": "AVAILABLE"
+          }
+        ]
+      },
+      {
+        "name": "Sinh tố",
+        "description": "Danh mục bao gồm các loại sinh tố trái cây, sinh tố rau củ, sinh tố mix và sinh tố kem.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_ĐỒ_UỐNG",
+        "children": [
+          {
+            "name": "Sinh tố trái cây",
+            "description": "Danh mục bao gồm các loại sinh tố trái cây tươi ngon như sinh tố chuối, sinh tố xoài, sinh tố dâu tây,...",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Sinh tố chuối",
+                "description": "Loại sinh tố có hương vị thơm ngon, béo ngậy, cung cấp nhiều năng lượng.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố xoài",
+                "description": "Loại sinh tố có hương vị thơm ngon, ngọt ngào, giàu vitamin A và C.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa", "Mật ong"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố dâu tây",
+                "description": "Loại sinh tố có hương vị chua ngọt, thanh mát, giàu vitamin C và chất chống oxy hóa.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa", "Sữa chua"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố ổi",
+                "description": "Loại sinh tố có hương vị chua ngọt, thanh mát, giàu vitamin C và chất xơ.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa", "Mật ong"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố bưởi",
+                "description": "Loại sinh tố có hương vị chua thanh, giúp giảm cân và đẹp da.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố dưa hấu",
+                "description": "Loại sinh tố có hương vị ngọt thanh, mát lạnh, giúp giải nhiệt và thanh lọc cơ thể.",
+                "isactive": "active",
+                "price": 25000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa", "Mật ong"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố dứa",
+                "description": "Loại sinh tố có hương vị chua ngọt, thanh mát, giúp tiêu hóa tốt và tăng cường hệ miễn dịch.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố ổi hồng",
+                "description": "Loại sinh tố có hương vị chua ngọt, thanh mát, giàu vitamin C và chất chống oxy hóa.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa", "Mật ong"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố kiwi",
+                "description": "Loại sinh tố có hương vị chua ngọt, thanh mát, giàu vitamin C và E.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa", "Sữa chua", "Mật ong"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Sinh tố rau củ",
+            "description": "Danh mục bao gồm các loại sinh tố rau củ tốt cho sức khỏe như sinh tố cà rốt, sinh tố cải bó xôi, sinh tố cần tây,...",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Sinh tố cà rốt",
+                "description": "Loại sinh tố có hương vị ngọt nhẹ, thanh mát, tốt cho mắt và hệ tiêu hóa.",
+                "isactive": "active",
+                "price": 25000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Sữa chua"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố cải bó xôi",
+                "description": "Loại sinh tố có hương vị thơm ngon, bổ dưỡng, giàu vitamin A, C và K.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Sữa chua", "Hạt chia"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố cần tây",
+                "description": "Loại sinh tố có hương vị thanh mát, giúp giảm cân và thanh lọc cơ thể.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Chanh tươi"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố dưa leo",
+                "description": "Loại sinh tố có hương vị thanh mát, giúp giải nhiệt và cấp nước cho cơ thể.",
+                "isactive": "active",
+                "price": 25000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Chanh tươi", "Lá bạc hà"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố bí đao",
+                "description": "Loại sinh tố có hương vị thanh mát, giúp giảm cân và đẹp da.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Sữa chua", "Hạt chia"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố cà chua",
+                "description": "Loại sinh tố có hương vị chua ngọt, thanh mát, giàu vitamin A, C và lycopene.",
+                "isactive": "active",
+                "price": 25000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Chanh tươi", "Lá húng quế"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố củ dền",
+                "description": "Loại sinh tố có hương vị ngọt nhẹ, thanh mát, giúp tăng cường hệ miễn dịch và sức khỏe tim mạch.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Sữa chua", "Hạt chia"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố bông cải xanh",
+                "description": "Loại sinh tố có hương vị thơm ngon, bổ dưỡng, giàu vitamin A, C và K.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Sữa chua", "Hạt chia"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố măng tây",
+                "description": "Loại sinh tố có hương vị thanh mát, giúp giảm cân và thanh lọc cơ thể.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Sữa chua", "Hạt chia"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Sinh tố mix",
+            "description": "Danh mục bao gồm các loại sinh tố mix độc đáo, kết hợp nhiều loại trái cây và rau củ.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Sinh tố mix trái cây nhiệt đới",
+                "description": "Loại sinh tố có hương vị chua ngọt, thơm ngon, kết hợp xoài, dứa, chuối,...",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố mix berry",
+                "description": "Loại sinh tố có hương vị chua ngọt, thanh mát, kết hợp việt quất, dâu tây, mâm xôi,...",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa", "Sữa chua"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố mix rau củ detox",
+                "description": "Loại sinh tố có hương vị thanh mát, giúp giải độc cơ thể, kết hợp cần tây, dưa leo, táo xanh,...",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Chanh tươi"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố mix tăng cường miễn dịch",
+                "description": "Loại sinh tố có hương vị thơm ngon, bổ dưỡng, giúp tăng cường hệ miễn dịch, kết hợp kiwi, cam, bông cải xanh,...",
+                "isactive": "active",
+                "price": 40000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Sữa chua", "Hạt chia"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố mix đẹp da",
+                "description": "Loại sinh tố có hương vị thanh mát, giúp đẹp da và chống lão hóa, kết hợp dâu tây, việt quất, dưa hấu,...",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Sữa chua", "Hạt chia"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố mix giảm cân",
+                "description": "Loại sinh tố có hương vị thanh mát, giúp giảm cân và thanh lọc cơ thể, kết hợp cần tây, dưa leo, bưởi,...",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Mật ong", "Chanh tươi"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố mix năng lượng",
+                "description": "Loại sinh tố có hương vị thơm ngon, bổ dưỡng, cung cấp nhiều năng lượng, kết hợp chuối, bơ, sữa chua,...",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa", "Hạt chia"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố mix protein",
+                "description": "Loại sinh tố có hương vị thơm ngon, bổ dưỡng, giúp tăng cường cơ bắp, kết hợp chuối, sữa chua, yến mạch,...",
+                "isactive": "active",
+                "price": 42000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa", "Hạt chia"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Sinh tố kem",
+            "description": "Danh mục bao gồm các loại sinh tố kem béo ngậy, mát lạnh.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Sinh tố kem chuối",
+                "description": "Loại sinh tố có hương vị thơm ngon, béo ngậy, kết hợp chuối, kem tươi và sữa đặc.",
+                "isactive": "active",
+                "price": 40000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Sô cô la", "Bánh quy"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố kem xoài",
+                "description": "Loại sinh tố có hương vị chua ngọt, thanh mát, béo ngậy, kết hợp xoài, kem tươi và sữa đặc.",
+                "isactive": "active",
+                "price": 42000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Sô cô la", "Bánh quy", "Xoài sấy"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố kem dâu tây",
+                "description": "Loại sinh tố có hương vị chua ngọt, thanh mát, béo ngậy, kết hợp dâu tây, kem tươi và sữa đặc.",
+                "isactive": "active",
+                "price": 40000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Sô cô la", "Bánh quy", "Dâu tây sấy"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố kem bơ",
+                "description": "Loại sinh tố có hương vị béo ngậy, thơm ngon, thanh mát, kết hợp bơ, kem tươi và sữa đặc.",
+                "isactive": "active",
+                "price": 45000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Sô cô la", "Bánh quy", "Hạt chia"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố kem sầu riêng",
+                "description": "Loại sinh tố có hương vị béo ngậy, thơm nức mũi, kết hợp sầu riêng, kem tươi và sữa đặc.",
+                "isactive": "active",
+                "price": 50000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Sô cô la", "Bánh quy", "Múi sầu riêng"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố kem socola",
+                "description": "Loại sinh tố có hương vị sô cô la béo ngậy, thơm ngon, kết hợp kem sô cô la, sữa tươi và bánh quy sô cô la.",
+                "isactive": "active",
+                "price": 42000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Sô cô la", "Bánh quy sô cô la", "Kẹo dẻo"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố kem trà xanh",
+                "description": "Loại sinh tố có hương vị trà xanh thơm ngon, thanh mát, béo ngậy, kết hợp kem trà xanh, sữa tươi và trân châu.",
+                "isactive": "active",
+                "price": 45000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu", "Thạch dừa", "Bánh quy"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sinh tố kem cà phê",
+                "description": "Loại sinh tố có hương vị cà phê đậm đà, béo ngậy, kết hợp kem cà phê, sữa tươi và sốt caramel.",
+                "isactive": "active",
+                "price": 42000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Sô cô la", "Bánh quy", "Bột cacao"],
+                "status": "AVAILABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Soda",
+        "description": "Danh mục bao gồm các loại soda truyền thống, soda ít đường, soda vị trái cây và soda mix.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_ĐỒ_UỐNG",
+        "children": [
+          {
+            "name": "Soda truyền thống",
+            "description": "Danh mục bao gồm các loại soda truyền thống như Coca-Cola, Pepsi, 7 Up,...",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Coca-Cola",
+                "description": "Loại soda có hương vị gas đặc trưng, được yêu thích bởi nhiều người.",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Pepsi",
+                "description": "Loại soda có hương vị gas sảng khoái, được yêu thích bởi nhiều người.",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "7 Up",
+                "description": "Loại soda có hương vị chanh thanh mát, được yêu thích bởi nhiều người.",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Dr Pepper",
+                "description": "Loại soda có hương vị độc đáo, kết hợp nhiều loại trái cây và thảo mộc.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sprite",
+                "description": "Loại soda có hương vị chanh thanh mát, không đường, được yêu thích bởi nhiều người.",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mountain Dew",
+                "description": "Loại soda có hương vị cam chanh sảng khoái, được yêu thích bởi nhiều người.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Fanta",
+                "description": "Loại soda có nhiều hương vị trái cây đa dạng như cam, dâu tây, nho,...",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mirinda",
+                "description": "Loại soda có nhiều hương vị trái cây đa dạng như cam, dâu tây, nho,...",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Schweppes",
+                "description": "Loại soda có hương vị thanh mát, không đường, được yêu thích bởi nhiều người.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Tonic",
+                "description": "Loại soda có hương vị thanh mát, hơi đắng, được sử dụng để pha chế cocktail.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Soda ít đường",
+            "description": "Danh mục bao gồm các loại soda ít đường, tốt cho sức khỏe.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Coca-Cola Zero",
+                "description": "Loại soda Coca-Cola không đường, dành cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Pepsi Max",
+                "description": "Loại soda Pepsi không đường, dành cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "7 Up Zero",
+                "description": "Loại soda 7 Up không đường, dành cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Dr Pepper Zero",
+                "description": "Loại soda Dr Pepper không đường, dành cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 19000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sprite Zero",
+                "description": "Loại soda Sprite không đường, dành cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mountain Dew Zero",
+                "description": "Loại soda Mountain Dew không đường, dành cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 19000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Fanta Zero",
+                "description": "Loại soda Fanta không đường với nhiều hương vị trái cây đa dạng.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mirinda Zero",
+                "description": "Loại soda Mirinda không đường với nhiều hương vị trái cây đa dạng.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Schweppes Zero",
+                "description": "Loại soda Schweppes không đường, dành cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 19000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Tonic Zero",
+                "description": "Loại soda Tonic không đường, dành cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 19000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Soda vị trái cây",
+            "description": "Danh mục bao gồm các loại soda vị trái cây thơm ngon, thanh mát.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Mirinda Cam",
+                "description": "Loại soda có hương vị cam chua ngọt, thanh mát.",
+                "isactive": "active",
+                "price": 16000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sprite",
+                "description": "Loại soda có hương vị chanh thanh mát, dịu nhẹ.",
+                "isactive": "active",
+                "price": 16000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Fanta Dâu Tây",
+                "description": "Loại soda có hương vị dâu tây chua ngọt, thơm ngon.",
+                "isactive": "active",
+                "price": 16000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Fanta Nho",
+                "description": "Loại soda có hương vị nho tím chua ngọt, thanh mát.",
+                "isactive": "active",
+                "price": 16000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Schweppes Táo Xanh",
+                "description": "Loại soda có hương vị táo xanh chua nhẹ, thanh mát.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Dr Pepper Cherry",
+                "description": "Loại soda có hương vị cherry chua ngọt, kết hợp nhiều loại trái cây và thảo mộc.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mountain Dew LiveWire",
+                "description": "Loại soda có hương vị cam chanh sảng khoái, kết hợp vị chua cay.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sprite Cranberry",
+                "description": "Loại soda có hương vị chanh thanh mát kết hợp cranberry chua nhẹ.",
+                "isactive": "active",
+                "price": 16000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Fanta Zero Cam",
+                "description": "Loại soda có hương vị cam chua ngọt, thanh mát, không đường.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mirinda Zero Nho",
+                "description": "Loại soda có hương vị nho tím chua ngọt, thanh mát, không đường.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Soda mix",
+            "description": "Danh mục bao gồm các loại soda mix độc đáo, kết hợp nhiều hương vị.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Shweppes Ginger Ale & Lime",
+                "description": "Loại soda mix có hương vị gừng cay nồng, kết hợp chanh thanh mát.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sprite Cranberry & Rosemary",
+                "description": "Loại soda mix có hương vị chanh thanh mát kết hợp cranberry chua nhẹ và hương thảo mộc.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Dr Pepper Cherry & Vanilla",
+                "description": "Loại soda mix có hương vị cherry chua ngọt, kết hợp nhiều loại trái cây, thảo mộc và hương vani.",
+                "isactive": "active",
+                "price": 19000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mountain Dew LiveWire & Mango",
+                "description": "Loại soda mix có hương vị cam chanh sảng khoái, kết hợp vị chua cay và vị xoài thơm ngon.",
+                "isactive": "active",
+                "price": 19000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Fanta Zero Orange & Pineapple",
+                "description": "Loại soda mix có hương vị cam chua ngọt, thanh mát, không đường, kết hợp dứa thơm ngon.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mirinda Zero Grape & Strawberry",
+                "description": "Loại soda mix có hương vị nho tím chua ngọt, thanh mát, không đường, kết hợp dâu tây thơm ngon.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "7 Up Zero & Lime",
+                "description": "Loại soda mix có hương vị chanh thanh mát, không đường, kết hợp thêm chanh tươi.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Coca-Cola Zero & Cherry",
+                "description": "Loại soda mix có hương vị Coca-Cola không đường, kết hợp vị cherry chua ngọt.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Pepsi Max & Ginger",
+                "description": "Loại soda mix có hương vị Pepsi không đường, kết hợp vị gừng cay nồng.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Dr Pepper & Vanilla Float",
+                "description": "Loại soda mix kết hợp soda Dr Pepper và kem vani, tạo nên hương vị béo ngậy, thơm ngon.",
+                "isactive": "active",
+                "price": 22000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nước đóng chai",
+        "description": "Danh mục bao gồm các loại nước lọc, nước khoáng, nước có ga và nước trái cây đóng chai.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_ĐỒ_UỐNG",
+        "children": [
+          {
+            "name": "Nước lọc",
+            "description": "Danh mục bao gồm các loại nước lọc tinh khiết, tốt cho sức khỏe.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Aquafina",
+                "description": "Loại nước lọc tinh khiết, được sản xuất theo quy trình hiện đại.",
+                "isactive": "active",
+                "price": 10000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Nestlé Pure Life",
+                "description": "Loại nước lọc tinh khiết, được sản xuất theo quy trình hiện đại.",
+                "isactive": "active",
+                "price": 12000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "La Vie",
+                "description": "Loại nước lọc tinh khiết, được sản xuất theo quy trình hiện đại.",
+                "isactive": "active",
+                "price": 12000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Satori",
+                "description": "Loại nước lọc tinh khiết, được sản xuất theo quy trình hiện đại.",
+                "isactive": "active",
+                "price": 13000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Ibis",
+                "description": "Loại nước lọc tinh khiết, được sản xuất theo quy trình hiện đại.",
+                "isactive": "active",
+                "price": 10000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Vianco",
+                "description": "Loại nước lọc tinh khiết, được sản xuất theo quy trình hiện đại.",
+                "isactive": "active",
+                "price": 11000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Ba Vì",
+                "description": "Loại nước lọc tinh khiết, được sản xuất theo quy trình hiện đại.",
+                "isactive": "active",
+                "price": 12000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Kim Bôi",
+                "description": "Loại nước lọc tinh khiết, được sản xuất theo quy trình hiện đại.",
+                "isactive": "active",
+                "price": 13000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Lavie",
+                "description": "Loại nước lọc tinh khiết, được sản xuất theo quy trình hiện đại.",
+                "isactive": "active",
+                "price": 12000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Number 1",
+                "description": "Loại nước lọc tinh khiết, được sản xuất theo quy trình hiện đại.",
+                "isactive": "active",
+                "price": 11000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Nước khoáng",
+            "description": "Danh mục bao gồm các loại nước khoáng tự nhiên, giàu khoáng chất.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Vĩnh Hảo",
+                "description": "Loại nước khoáng tự nhiên, được khai thác từ nguồn nước khoáng nóng Vĩnh Hảo.",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Lavie",
+                "description": "Loại nước khoáng tự nhiên, được khai thác từ nguồn nước khoáng Lavie.",
+                "isactive": "active",
+                "price": 16000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Ba Vì",
+                "description": "Loại nước khoáng tự nhiên, được khai thác từ nguồn nước khoáng Ba Vì.",
+                "isactive": "active",
+                "price": 14000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Kim Bôi",
+                "description": "Loại nước khoáng tự nhiên, được khai thác từ nguồn nước khoáng Kim Bôi.",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Number 1",
+                "description": "Loại nước khoáng tự nhiên, được khai thác từ nguồn nước khoáng Number 1.",
+                "isactive": "active",
+                "price": 16000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Ibis",
+                "description": "Loại nước khoáng tự nhiên, được khai thác từ nguồn nước khoáng Ibis.",
+                "isactive": "active",
+                "price": 14000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Satori",
+                "description": "Loại nước khoáng tự nhiên, được khai thác từ nguồn nước khoáng Satori.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Nestlé Pure Life",
+                "description": "Loại nước khoáng tự nhiên, được khai thác từ nguồn nước khoáng Nestlé Pure Life.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Aquafina",
+                "description": "Loại nước khoáng tự nhiên, được khai thác từ nguồn nước khoáng Aquafina.",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "La Vie",
+                "description": "Loại nước khoáng tự nhiên, được khai thác từ nguồn nước khoáng La Vie.",
+                "isactive": "active",
+                "price": 16000,
+                "size": ["500ml", "1.5L"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Nước có ga",
+            "description": "Danh mục bao gồm các loại nước có ga, sảng khoái.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Sprite",
+                "description": "Loại nước có ga vị chanh thanh mát, dịu nhẹ.",
+                "isactive": "active",
+                "price": 12000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Coca-Cola",
+                "description": "Loại nước có ga vị cola truyền thống, đậm đà.",
+                "isactive": "active",
+                "price": 12000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Pepsi",
+                "description": "Loại nước có ga vị cola truyền thống, sảng khoái.",
+                "isactive": "active",
+                "price": 12000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "7 Up",
+                "description": "Loại nước có ga vị chanh không đường, thanh mát.",
+                "isactive": "active",
+                "price": 13000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Dr Pepper",
+                "description": "Loại nước có ga vị cola kết hợp nhiều loại trái cây và thảo mộc.",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mountain Dew",
+                "description": "Loại nước có ga vị cam chanh sảng khoái, kết hợp vị chua cay.",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Fanta",
+                "description": "Loại nước có ga nhiều hương vị trái cây đa dạng như cam, dâu tây, nho,...",
+                "isactive": "active",
+                "price": 12000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Mirinda",
+                "description": "Loại nước có ga nhiều hương vị trái cây đa dạng như cam, dâu tây, nho,...",
+                "isactive": "active",
+                "price": 12000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Schweppes",
+                "description": "Loại nước có ga thanh mát, không đường, có nhiều hương vị như tonic, ginger ale,...",
+                "isactive": "active",
+                "price": 14000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Sting",
+                "description": "Loại nước tăng lực, bổ sung năng lượng.",
+                "isactive": "active",
+                "price": 13000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Red Bull",
+                "description": "Loại nước tăng lực, bổ sung năng lượng, tăng cường sự tập trung.",
+                "isactive": "active",
+                "price": 16000,
+                "size": ["250ml", "350ml"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Nước trái cây đóng chai",
+            "description": "Danh mục bao gồm các loại nước trái cây đóng chai thơm ngon, bổ dưỡng.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Tropicana",
+                "description": "Loại nước trái cây cam nguyên chất, giàu vitamin C.",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Del Monte",
+                "description": "Loại nước trái cây dứa nguyên chất, thơm ngon, thanh mát.",
+                "isactive": "active",
+                "price": 14000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Coco",
+                "description": "Loại nước dừa nguyên chất, thanh mát, tốt cho sức khỏe.",
+                "isactive": "active",
+                "price": 12000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "HiPP",
+                "description": "Loại nước trái cây dành cho trẻ em, được làm từ nguyên liệu tự nhiên, an toàn.",
+                "isactive": "active",
+                "price": 18000,
+                "size": ["180ml", "200ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Enfamil",
+                "description": "Loại nước trái cây dành cho trẻ em, bổ sung vitamin và khoáng chất cần thiết.",
+                "isactive": "active",
+                "price": 19000,
+                "size": ["180ml", "200ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Nestlé",
+                "description": "Loại nước trái cây dành cho trẻ em, hương vị thơm ngon, dễ uống.",
+                "isactive": "active",
+                "price": 17000,
+                "size": ["180ml", "200ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Vfresh",
+                "description": "Loại nước trái cây thanh mát, nhiều hương vị trái cây đa dạng.",
+                "isactive": "active",
+                "price": 13000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Coco Fresh",
+                "description": "Loại nước dừa tươi nguyên chất, đóng chai tiện lợi.",
+                "isactive": "active",
+                "price": 14000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "TH True Water Fruit",
+                "description": "Loại nước trái cây kết hợp nước khoáng TH True Water, tốt cho sức khỏe.",
+                "isactive": "active",
+                "price": 16000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Number 1 Juice",
+                "description": "Loại nước trái cây nguyên chất, được làm từ nguyên liệu chọn lọc.",
+                "isactive": "active",
+                "price": 15000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cappy",
+                "description": "Loại nước trái cây nhiều hương vị trái cây đa dạng, thơm ngon.",
+                "isactive": "active",
+                "price": 12000,
+                "size": ["350ml", "500ml"],
+                "status": "AVAILABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cacao",
+        "description": "Danh mục bao gồm các loại cacao nguyên hạt, cacao bột, cacao nóng và cacao đá.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_ĐỒ_UỐNG",
+        "children": [
+          {
+            "name": "Cacao nóng",
+            "description": "Danh mục bao gồm các loại cacao nóng thơm ngon, bổ dưỡng.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Cacao Nóng Nguyên Chất",
+                "description": "Loại cacao nóng được pha chế từ cacao bột nguyên chất, sữa tươi và đường.",
+                "isactive": "active",
+                "price": 25000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao Nóng Sữa Đá",
+                "description": "Loại cacao nóng được pha chế từ cacao bột nguyên chất, sữa tươi và đá.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao Nóng Sữa Bột",
+                "description": "Loại cacao nóng được pha chế từ cacao bột nguyên chất, sữa bột và đường.",
+                "isactive": "active",
+                "price": 22000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao Nóng Sữa Chua",
+                "description": "Loại cacao nóng được pha chế từ cacao bột nguyên chất, sữa chua và mật ong.",
+                "isactive": "active",
+                "price": 27000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao Nóng Topping",
+                "description": "Loại cacao nóng được pha chế từ cacao bột nguyên chất, sữa tươi và topping đa dạng (kem tươi, marshmallow, trân châu...).",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao Nóng Sôcôla",
+                "description": "Loại cacao nóng được pha chế từ cacao bột nguyên chất, sữa tươi và sôcôla tan chảy.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao Nóng Bạc Hà",
+                "description": "Loại cacao nóng được pha chế từ cacao bột nguyên chất, sữa tươi và siro bạc hà.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao Nóng Gừng",
+                "description": "Loại cacao nóng được pha chế từ cacao bột nguyên chất, sữa tươi và gừng.",
+                "isactive": "active",
+                "price": 27000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao Nóng Sữa Dừa",
+                "description": "Loại cacao nóng được pha chế từ cacao bột nguyên chất, sữa dừa và đường.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao Nóng Vegan",
+                "description": "Loại cacao nóng được pha chế từ cacao bột nguyên chất, sữa thực vật (sữa đậu nành, sữa hạnh nhân...) và chất tạo ngọt tự nhiên.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Cacao đá",
+            "description": "Danh mục bao gồm các loại cacao đá mát lạnh, sảng khoái.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Cacao đá xay",
+                "description": "Loại cacao đá được xay nhuyễn từ cacao bột, sữa tươi, đá và đường.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao đá xay Topping",
+                "description": "Loại cacao đá xay được xay nhuyễn từ cacao bột, sữa tươi, đá và topping đa dạng (kem tươi, marshmallow, trân châu...).",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao đá Blended",
+                "description": "Loại cacao đá được pha trộn từ cacao bột, sữa tươi, đá và trái cây tươi xay nhuyễn.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao đá Frappuccino",
+                "description": "Loại cacao đá được pha chế theo phong cách Frappuccino, sử dụng đá xay nhuyễn mịn, cacao bột, sữa tươi và siro.",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao đá Smoothie",
+                "description": "Loại cacao đá được pha trộn từ cacao bột, sữa tươi, đá, trái cây tươi và rau củ.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao đá Sữa Chua",
+                "description": "Loại cacao đá được pha chế từ cacao bột, sữa chua, đá và mật ong.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao đá Sữa Dừa",
+                "description": "Loại cacao đá được pha chế từ cacao bột, sữa dừa, đá và đường.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao đá Vegan",
+                "description": "Loại cacao đá được pha chế từ cacao bột, sữa thực vật (sữa đậu nành, sữa hạnh nhân...), đá và chất tạo ngọt tự nhiên.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao đá Ít Ngọt",
+                "description": "Loại cacao đá được pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Cacao đá Không Đường",
+                "description": "Loại cacao đá được pha chế hoàn toàn không đường, phù hợp cho người muốn kiểm soát lượng đường nạp vào cơ thể.",
+                "isactive": "active",
+                "price": 25000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trà sữa",
+    "description": "Danh mục bao gồm các loại trà sữa với đa dạng hương vị và topping, được pha chế từ trà nguyên chất và sữa tươi, mang đến hương vị thơm ngon, béo ngậy, thanh mát, phù hợp với mọi khẩu vị.",
+    "isactive": "active",
+    "parentId": null,
+    "children": [
+      {
+        "name": "Trà sữa truyền thống",
+        "description": "Danh mục bao gồm các loại trà sữa truyền thống được pha chế từ trà nguyên chất và sữa tươi, mang đến hương vị thơm ngon, béo ngậy, thanh mát, phù hợp với mọi khẩu vị.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_TRÀ_SỮA",
+        "children": [
+          {
+            "name": "Trà sữa matcha",
+            "description": "Thức uống kết hợp giữa trà matcha nguyên chất và sữa tươi, tạo nên hương vị thơm ngon, béo ngậy, thanh mát.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa matcha truyền thống",
+                "description": "Trà sữa matcha pha chế theo công thức truyền thống, sử dụng trà matcha nguyên chất và sữa tươi.",
+                "isactive": "active",
+                "price": 25000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu đen", "Trân châu trắng", "Pudding"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha kem cheese",
+                "description": "Trà sữa matcha kết hợp với lớp kem cheese béo ngậy, tạo nên hương vị độc đáo, hấp dẫn.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Pudding",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha thạch",
+                "description": "Trà sữa matcha kết hợp với thạch dai dai, nhiều màu sắc, tạo nên hương vị thú vị.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Pudding",
+                  "Thạch trái cây"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha trân châu hoàng kim",
+                "description": "Trà sữa matcha kết hợp với trân châu hoàng kim dai dai, bùi bùi, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Trân châu hoàng kim",
+                  "Pudding"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha socola",
+                "description": "Trà sữa matcha kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Pudding",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha vị trái cây",
+                "description": "Trà sữa matcha kết hợp với vị trái cây thanh mát, tạo nên hương vị mới lạ, độc đáo.",
+                "isactive": "active",
+                "price": 27000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Pudding",
+                  "Thạch trái cây"
+                ],
+                "flavors": [
+                  "Vị dâu tây",
+                  "Vị xoài",
+                  "Vị dưa hấu",
+                  "Vị thanh long"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha ít ngọt",
+                "description": "Trà sữa matcha pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 23000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu đen", "Trân châu trắng", "Pudding"],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà sữa sencha",
+            "description": "Thức uống kết hợp giữa trà sencha nguyên chất và sữa tươi, tạo nên hương vị thơm ngon, thanh mát, dễ uống.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa sencha truyền thống",
+                "description": "Trà sữa sencha pha chế theo công thức truyền thống, sử dụng trà sencha nguyên chất và sữa tươi.",
+                "isactive": "active",
+                "price": 25000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Thạch",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha kem cheese",
+                "description": "Trà sữa sencha kết hợp với lớp kem cheese béo ngậy, tạo nên hương vị độc đáo, hấp dẫn.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Thạch",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha thạch trái cây",
+                "description": "Trà sữa sencha kết hợp với thạch trái cây dai dai, nhiều màu sắc, tạo nên hương vị thú vị.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Thạch trái cây",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha trân châu hoàng kim",
+                "description": "Trà sữa sencha kết hợp với trân châu hoàng kim dai dai, bùi bùi, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Trân châu hoàng kim",
+                  "Thạch",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha socola",
+                "description": "Trà sữa sencha kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Thạch",
+                  "Kem cheese",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha vị trái cây",
+                "description": "Trà sữa sencha kết hợp với vị trái cây thanh mát, tạo nên hương vị mới lạ, độc đáo.",
+                "isactive": "active",
+                "price": 27000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Thạch trái cây",
+                  "Kem cheese"
+                ],
+                "flavors": [
+                  "Vị dâu tây",
+                  "Vị xoài",
+                  "Vị dưa hấu",
+                  "Vị thanh long"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha ít ngọt",
+                "description": "Trà sữa sencha pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": {
+                  "Size M": 25000,
+                  "Size L": 30000
+                },
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Thạch trái cây",
+                  "Aloe vera",
+                  "Kem cheese ít béo"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà sữa genmaicha",
+            "description": "Thức uống kết hợp giữa trà genmaicha nguyên chất và sữa tươi, tạo nên hương vị thơm ngon, độc đáo, pha chút vị rang bùi.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa genmaicha truyền thống",
+                "description": "Trà sữa genmaicha pha chế theo công thức truyền thống, sử dụng trà genmaicha nguyên chất và sữa tươi.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu hoàng kim", "Thạch", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha kem cheese",
+                "description": "Trà sữa genmaicha kết hợp với lớp kem cheese béo ngậy, tạo nên hương vị độc đáo, hấp dẫn.",
+                "isactive": "active",
+                "price": 33000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu hoàng kim", "Thạch", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha trái cây",
+                "description": "Trà sữa genmaicha kết hợp với vị trái cây thanh mát, tạo nên hương vị mới lạ, độc đáo.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu hoàng kim",
+                  "Thạch trái cây",
+                  "Kem cheese"
+                ],
+                "flavors": [
+                  "Vị dâu tây",
+                  "Vị xoài",
+                  "Vị dưa hấu",
+                  "Vị thanh long"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha ít ngọt",
+                "description": "Trà sữa genmaicha pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 25000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu hoàng kim",
+                  "Thạch",
+                  "Kem cheese ít béo"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha socola",
+                "description": "Trà sữa genmaicha kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu hoàng kim",
+                  "Thạch",
+                  "Kem cheese",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha thạch nha",
+                "description": "Trà sữa genmaicha kết hợp với thạch nha dai dai, thanh mát, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu hoàng kim", "Thạch nha", "Kem cheese"],
+                "status": "AVAILABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Trà sữa kem cheese",
+        "description": "Danh mục bao gồm các loại trà sữa kết hợp với lớp kem cheese béo ngậy, tạo nên hương vị độc đáo, hấp dẫn.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_TRÀ_SỮA",
+        "children": [
+          {
+            "name": "Trà sữa matcha kem cheese",
+            "description": "Thức uống kết hợp giữa trà sữa matcha nguyên chất và lớp kem cheese béo ngậy, tạo nên hương vị thơm ngon, béo ngậy, thanh mát.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa matcha kem cheese truyền thống",
+                "description": "Trà sữa matcha kem cheese pha chế theo công thức truyền thống, sử dụng trà matcha nguyên chất, sữa tươi và kem cheese.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Pudding",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha kem cheese trân châu hoàng kim",
+                "description": "Trà sữa matcha kem cheese kết hợp với trân châu hoàng kim dai dai, bùi bùi, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Trân châu hoàng kim",
+                  "Pudding",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha kem cheese thạch trái cây",
+                "description": "Trà sữa matcha kem cheese kết hợp với thạch trái cây dai dai, nhiều màu sắc, tạo nên hương vị thú vị.",
+                "isactive": "active",
+                "price": 33000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Pudding",
+                  "Thạch trái cây",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha kem cheese ít ngọt",
+                "description": "Trà sữa matcha kem cheese pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Pudding",
+                  "Kem cheese ít béo"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha kem cheese socola",
+                "description": "Trà sữa matcha kem cheese kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 34000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Pudding",
+                  "Kem cheese",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha kem cheese thạch nha",
+                "description": "Trà sữa matcha kem cheese kết hợp với thạch nha dai dai, thanh mát, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Pudding",
+                  "Thạch nha",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà sữa sencha kem cheese",
+            "description": "Thức uống kết hợp giữa trà sữa sencha nguyên chất và lớp kem cheese béo ngậy, tạo nên hương vị thơm ngon, thanh mát, dễ uống.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa sencha kem cheese truyền thống",
+                "description": "Trà sữa sencha kem cheese pha chế theo công thức truyền thống, sử dụng trà sencha nguyên chất, sữa tươi và kem cheese.",
+                "isactive": "active",
+                "price": 30000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Thạch",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha kem cheese trân châu hoàng kim",
+                "description": "Trà sữa sencha kem cheese kết hợp với trân châu hoàng kim dai dai, bùi bùi, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Trân châu hoàng kim",
+                  "Thạch",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha kem cheese thạch trái cây",
+                "description": "Trà sữa sencha kem cheese kết hợp với thạch trái cây dai dai, nhiều màu sắc, tạo nên hương vị thú vị.",
+                "isactive": "active",
+                "price": 33000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Thạch trái cây",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha kem cheese ít ngọt",
+                "description": "Trà sữa sencha kem cheese pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 28000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Thạch",
+                  "Kem cheese ít béo"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha kem cheese socola",
+                "description": "Trà sữa sencha kem cheese kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 34000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Thạch",
+                  "Kem cheese",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha kem cheese thạch nha",
+                "description": "Trà sữa sencha kem cheese kết hợp với thạch nha dai dai, thanh mát, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Thạch nha",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà sữa genmaicha kem cheese",
+            "description": "Thức uống kết hợp giữa trà sữa genmaicha nguyên chất và lớp kem cheese béo ngậy, tạo nên hương vị thơm ngon, độc đáo, pha chút vị rang bùi.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa genmaicha kem cheese truyền thống",
+                "description": "Trà sữa genmaicha kem cheese pha chế theo công thức truyền thống, sử dụng trà genmaicha nguyên chất, sữa tươi và kem cheese.",
+                "isactive": "active",
+                "price": 33000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu hoàng kim", "Thạch", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha kem cheese macchiato",
+                "description": "Trà sữa genmaicha kem cheese kết hợp với lớp kem sữa béo ngậy, tạo nên hương vị độc đáo, hấp dẫn",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu hoàng kim", "Thạch", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha kem cheese socola",
+                "description": "Trà sữa genmaicha kem cheese kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 36000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu hoàng kim",
+                  "Thạch",
+                  "Kem cheese",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha kem cheese trái cây",
+                "description": "Trà sữa genmaicha kem cheese kết hợp với vị trái cây thanh mát, tạo nên hương vị mới lạ, độc đáo.",
+                "isactive": "active",
+                "price": 34000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu hoàng kim",
+                  "Thạch trái cây",
+                  "Kem cheese"
+                ],
+                "flavors": [
+                  "Vị dâu tây",
+                  "Vị xoài",
+                  "Vị dưa hấu",
+                  "Vị thanh long"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha kem cheese thạch nha",
+                "description": "Trà sữa genmaicha kem cheese kết hợp với thạch nha dai dai, thanh mát, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu hoàng kim", "Thạch nha", "Kem cheese"],
+                "status": "AVAILABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Trà sữa trân châu",
+        "description": "Danh mục bao gồm các loại trà sữa kết hợp với trân châu dai dai, tạo nên hương vị thơm ngon, béo ngậy, giòn giòn.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_TRÀ_SỮA",
+        "children": [
+          {
+            "name": "Trà sữa matcha trân châu",
+            "description": "Thức uống kết hợp giữa trà sữa matcha nguyên chất, trân châu đen dai dai và kem cheese béo ngậy, tạo nên hương vị thơm ngon, béo ngậy, thanh mát.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa matcha trân châu đen truyền thống",
+                "description": "Trà sữa matcha trân châu đen pha chế theo công thức truyền thống, sử dụng trà matcha nguyên chất, sữa tươi, trân châu đen và kem cheese.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu đen", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha trân châu trắng",
+                "description": "Trà sữa matcha trân châu trắng pha chế theo công thức truyền thống, sử dụng trà matcha nguyên chất, sữa tươi, trân châu trắng và kem cheese.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu trắng", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha trân châu hoàng kim",
+                "description": "Trà sữa matcha kết hợp với trân châu hoàng kim dai dai, bùi bùi, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu hoàng kim", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha trân châu ít ngọt",
+                "description": "Trà sữa matcha pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese ít béo"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha trân châu socola",
+                "description": "Trà sữa matcha kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 37000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha trân châu thạch nha",
+                "description": "Trà sữa matcha kết hợp với thạch nha dai dai, thanh mát, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese",
+                  "Thạch nha"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà sữa sencha trân châu",
+            "description": "Thức uống kết hợp giữa trà sữa sencha nguyên chất, trân châu trắng dai dai và kem cheese béo ngậy, tạo nên hương vị thơm ngon, thanh mát, dễ uống.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa sencha trân châu trắng truyền thống",
+                "description": "Trà sữa sencha trân châu trắng pha chế theo công thức truyền thống, sử dụng trà sencha nguyên chất, sữa tươi, trân châu trắng và kem cheese.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu trắng", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha trân châu hoàng kim",
+                "description": "Trà sữa sencha trân châu hoàng kim pha chế theo công thức truyền thống, sử dụng trà sencha nguyên chất, sữa tươi, trân châu hoàng kim và kem cheese.",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu hoàng kim", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha trân châu đen",
+                "description": "Trà sữa sencha kết hợp với trân châu đen dai dai, bùi bùi, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 36000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu đen", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha trân châu ít ngọt",
+                "description": "Trà sữa sencha pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu trắng",
+                  "Trân châu đen",
+                  "Kem cheese ít béo"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha trân châu socola",
+                "description": "Trà sữa sencha kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 37000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu trắng",
+                  "Trân châu đen",
+                  "Kem cheese",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha trân châu thạch nha",
+                "description": "Trà sữa sencha kết hợp với thạch nha dai dai, thanh mát, tạo nên hương vị độc đáo.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu trắng",
+                  "Trân châu đen",
+                  "Kem cheese",
+                  "Thạch nha"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà sữa genmaicha trân châu",
+            "description": "Thức uống kết hợp giữa trà sữa genmaicha nguyên chất, trân châu hoàng kim dai dai và kem cheese béo ngậy, tạo nên hương vị thơm ngon, độc đáo, pha chút vị rang bùi.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa genmaicha trân châu hoàng kim truyền thống",
+                "description": "Trà sữa genmaicha trân châu hoàng kim pha chế theo công thức truyền thống, sử dụng trà genmaicha nguyên chất, sữa tươi, trân châu hoàng kim và kem cheese.",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu hoàng kim", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha trân châu mix",
+                "description": "Trà sữa genmaicha trân châu mix kết hợp với nhiều loại topping đa dạng, mang đến trải nghiệm hương vị phong phú.",
+                "isactive": "active",
+                "price": 40000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu hoàng kim",
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese",
+                  "Thạch nha",
+                  "Pudding"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha trân châu ít ngọt",
+                "description": "Trà sữa genmaicha pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu hoàng kim",
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese ít béo"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha trân châu socola",
+                "description": "Trà sữa genmaicha kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 41000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu hoàng kim",
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha trân châu thạch trái cây",
+                "description": "Trà sữa genmaicha kết hợp với vị trái cây thanh mát, tạo nên hương vị mới lạ, độc đáo.",
+                "isactive": "active",
+                "price": 39000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu hoàng kim",
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese",
+                  "Thạch trái cây"
+                ],
+                "flavors": [
+                  "Vị dâu tây",
+                  "Vị xoài",
+                  "Vị dưa hấu",
+                  "Vị thanh long"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Trà sữa pudding",
+        "description": "Danh mục bao gồm các loại trà sữa kết hợp với pudding mềm mịn, tạo nên hương vị thơm ngon, béo ngậy, thanh mát.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_TRÀ_SỮA",
+        "children": [
+          {
+            "name": "Trà sữa matcha pudding",
+            "description": "Thức uống kết hợp giữa trà sữa matcha nguyên chất, pudding trà xanh mềm mịn và kem cheese béo ngậy, tạo nên hương vị thơm ngon, béo ngậy, thanh mát.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa matcha pudding truyền thống",
+                "description": "Trà sữa matcha pudding pha chế theo công thức truyền thống, sử dụng trà matcha nguyên chất, sữa tươi, pudding trà xanh và kem cheese.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Pudding trà xanh", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha pudding trân châu",
+                "description": "Trà sữa matcha pudding kết hợp với trân châu dai dai, tạo nên hương vị thơm ngon, béo ngậy, giòn giòn.",
+                "isactive": "active",
+                "price": 40000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Pudding trà xanh",
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha pudding thạch trái cây",
+                "description": "Trà sữa matcha pudding kết hợp với thạch trái cây thanh mát, tạo nên hương vị mới lạ, độc đáo.",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Pudding trà xanh",
+                  "Thạch trái cây",
+                  "Kem cheese"
+                ],
+                "flavors": [
+                  "Vị dâu tây",
+                  "Vị xoài",
+                  "Vị dưa hấu",
+                  "Vị thanh long"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha pudding ít ngọt",
+                "description": "Trà sữa matcha pudding pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Pudding trà xanh", "Kem cheese ít béo"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha pudding socola",
+                "description": "Trà sữa matcha pudding kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 37000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Pudding trà xanh",
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà sữa sencha pudding",
+            "description": "Thức uống kết hợp giữa trà sữa sencha nguyên chất, pudding caramel mềm mịn và kem cheese béo ngậy, tạo nên hương vị thơm ngon, thanh mát, dễ uống.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa sencha pudding truyền thống",
+                "description": "Trà sữa sencha pudding pha chế theo công thức truyền thống, sử dụng trà sencha nguyên chất, sữa tươi, pudding caramel và kem cheese.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Pudding caramel", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha pudding thạch",
+                "description": "Trà sữa sencha pudding kết hợp với thạch dai dai, tạo nên hương vị thơm ngon, thanh mát, giòn giòn.",
+                "isactive": "active",
+                "price": 40000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Pudding caramel", "Thạch", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha pudding trân châu",
+                "description": "Trà sữa sencha pudding kết hợp với trân châu dai dai, tạo nên hương vị thơm ngon, béo ngậy, giòn giòn.",
+                "isactive": "active",
+                "price": 42000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Pudding caramel",
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha pudding trái cây",
+                "description": "Trà sữa sencha pudding kết hợp với vị trái cây thanh mát, tạo nên hương vị mới lạ, độc đáo.",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Pudding caramel", "Thạch trái cây", "Kem cheese"],
+                "flavors": [
+                  "Vị dâu tây",
+                  "Vị xoài",
+                  "Vị dưa hấu",
+                  "Vị thanh long"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha pudding ít ngọt",
+                "description": "Trà sữa sencha pudding pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Pudding caramel", "Kem cheese ít béo"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha pudding socola",
+                "description": "Trà sữa sencha pudding kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 37000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Pudding caramel",
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà sữa genmaicha pudding",
+            "description": "Thức uống kết hợp giữa trà sữa genmaicha nguyên chất, pudding socola mềm mịn và kem cheese béo ngậy, tạo nên hương vị thơm ngon, độc đáo, pha chút vị rang bùi.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa genmaicha pudding truyền thống",
+                "description": "Trà sữa genmaicha pudding pha chế theo công thức truyền thống, sử dụng trà genmaicha nguyên chất, sữa tươi, pudding socola và kem cheese.",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Pudding socola", "Kem cheese"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha pudding macchiato",
+                "description": "Trà sữa genmaicha pudding kết hợp với lớp kem sữa béo ngậy, tạo nên hương vị độc đáo, hấp dẫn.",
+                "isactive": "active",
+                "price": 43000,
+                "size": ["Size M", "Size L"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha pudding trân châu",
+                "description": "Trà sữa genmaicha pudding kết hợp với trân châu dai dai, tạo nên hương vị thơm ngon, béo ngậy, giòn giòn.",
+                "isactive": "active",
+                "price": 45000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Pudding socola",
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha pudding trái cây",
+                "description": "Trà sữa genmaicha pudding kết hợp với vị trái cây thanh mát, tạo nên hương vị mới lạ, độc đáo.",
+                "isactive": "active",
+                "price": 40000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Pudding socola", "Thạch trái cây", "Kem cheese"],
+                "flavors": [
+                  "Vị dâu tây",
+                  "Vị xoài",
+                  "Vị dưa hấu",
+                  "Vị thanh long"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha pudding ít ngọt",
+                "description": "Trà sữa genmaicha pudding pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Pudding socola", "Kem cheese ít béo"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha pudding socola",
+                "description": "Trà sữa genmaicha pudding kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 41000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Pudding socola",
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem cheese",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Trà sữa macchiato",
+        "description": "Danh mục bao gồm các loại trà sữa kết hợp với lớp kem sữa béo ngậy, tạo nên hương vị thơm ngon, béo ngậy, hấp dẫn.",
+        "isactive": "active",
+        "parentId": "UUID_DANH_MỤC_TRÀ_SỮA",
+        "children": [
+          {
+            "name": "Trà sữa matcha macchiato",
+            "description": "Thức uống kết hợp giữa trà sữa matcha nguyên chất và lớp kem sữa béo ngậy, tạo nên hương vị thơm ngon, béo ngậy, thanh mát.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa matcha macchiato truyền thống",
+                "description": "Trà sữa matcha macchiato pha chế theo công thức truyền thống, sử dụng trà matcha nguyên chất, sữa tươi và kem sữa béo ngậy.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Kem sữa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha macchiato trân châu",
+                "description": "Trà sữa matcha macchiato kết hợp với trân châu dai dai, tạo nên hương vị thơm ngon, béo ngậy, giòn giòn.",
+                "isactive": "active",
+                "price": 40000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu đen", "Trân châu trắng", "Kem sữa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha macchiato thạch",
+                "description": "Trà sữa matcha macchiato kết hợp với thạch dai dai, tạo nên hương vị thơm ngon, thanh mát, giòn giòn.",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Thạch trái cây", "Thạch dừa", "Kem sữa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha macchiato trái cây",
+                "description": "Trà sữa matcha macchiato kết hợp với vị trái cây thanh mát, tạo nên hương vị mới lạ, độc đáo.",
+                "isactive": "active",
+                "price": 39000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Thạch trái cây", "Kem sữa"],
+                "flavors": [
+                  "Vị dâu tây",
+                  "Vị xoài",
+                  "Vị dưa hấu",
+                  "Vị thanh long"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha macchiato ít ngọt",
+                "description": "Trà sữa matcha macchiato pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Kem sữa ít béo"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa matcha macchiato socola",
+                "description": "Trà sữa matcha macchiato kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 37000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem sữa",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà sữa sencha macchiato",
+            "description": "Thức uống kết hợp giữa trà sữa sencha nguyên chất và lớp kem sữa béo ngậy, tạo nên hương vị thơm ngon, thanh mát, dễ uống.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa sencha macchiato truyền thống",
+                "description": "Trà sữa sencha macchiato pha chế theo công thức truyền thống, sử dụng trà sencha nguyên chất, sữa tươi và kem sữa béo ngậy.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Kem sữa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha macchiato trân châu",
+                "description": "Trà sữa sencha macchiato kết hợp với trân châu dai dai, tạo nên hương vị thơm ngon, béo ngậy, giòn giòn.",
+                "isactive": "active",
+                "price": 40000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu đen", "Trân châu trắng", "Kem sữa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha macchiato thạch",
+                "description": "Trà sữa sencha macchiato kết hợp với thạch dai dai, tạo nên hương vị thơm ngon, thanh mát, giòn giòn.",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Thạch trái cây", "Thạch dừa", "Kem sữa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha macchiato trái cây",
+                "description": "Trà sữa sencha macchiato kết hợp với vị trái cây thanh mát, tạo nên hương vị mới lạ, độc đáo.",
+                "isactive": "active",
+                "price": 39000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Thạch trái cây", "Kem sữa"],
+                "flavors": [
+                  "Vị dâu tây",
+                  "Vị xoài",
+                  "Vị dưa hấu",
+                  "Vị thanh long"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha macchiato ít ngọt",
+                "description": "Trà sữa sencha macchiato pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 32000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Kem sữa ít béo"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa sencha macchiato socola",
+                "description": "Trà sữa sencha macchiato kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 37000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem sữa",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          },
+          {
+            "name": "Trà sữa genmaicha macchiato",
+            "description": "Thức uống kết hợp giữa trà sữa genmaicha nguyên chất và lớp kem sữa béo ngậy, tạo nên hương vị thơm ngon, độc đáo, pha chút vị rang bùi.",
+            "isactive": "active",
+            "children": [
+              {
+                "name": "Trà sữa genmaicha macchiato truyền thống",
+                "description": "Trà sữa genmaicha macchiato pha chế theo công thức truyền thống, sử dụng trà genmaicha nguyên chất, sữa tươi và kem sữa béo ngậy.",
+                "isactive": "active",
+                "price": 38000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Kem sữa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha macchiato trân châu",
+                "description": "Trà sữa genmaicha macchiato kết hợp với trân châu dai dai, tạo nên hương vị thơm ngon, béo ngậy, giòn giòn.",
+                "isactive": "active",
+                "price": 43000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Trân châu đen", "Trân châu trắng", "Kem sữa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha macchiato thạch",
+                "description": "Trà sữa genmaicha macchiato kết hợp với thạch dai dai, tạo nên hương vị thơm ngon, thanh mát, giòn giòn.",
+                "isactive": "active",
+                "price": 40000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Thạch trái cây", "Thạch dừa", "Kem sữa"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha macchiato trái cây",
+                "description": "Trà sữa genmaicha macchiato kết hợp với vị trái cây thanh mát, tạo nên hương vị mới lạ, độc đáo.",
+                "isactive": "active",
+                "price": 41000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Thạch trái cây", "Kem sữa"],
+                "flavors": [
+                  "Vị dâu tây",
+                  "Vị xoài",
+                  "Vị dưa hấu",
+                  "Vị thanh long"
+                ],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha macchiato ít ngọt",
+                "description": "Trà sữa genmaicha macchiato pha chế với lượng đường ít, phù hợp cho người ăn kiêng.",
+                "isactive": "active",
+                "price": 35000,
+                "size": ["Size M", "Size L"],
+                "toppings": ["Kem sữa ít béo"],
+                "status": "AVAILABLE"
+              },
+              {
+                "name": "Trà sữa genmaicha macchiato socola",
+                "description": "Trà sữa genmaicha macchiato kết hợp với socola béo ngậy, tạo nên hương vị hòa quyện hoàn hảo.",
+                "isactive": "active",
+                "price": 39000,
+                "size": ["Size M", "Size L"],
+                "toppings": [
+                  "Trân châu đen",
+                  "Trân châu trắng",
+                  "Kem sữa",
+                  "Socola chip"
+                ],
+                "status": "AVAILABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

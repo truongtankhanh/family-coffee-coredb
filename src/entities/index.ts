@@ -1,2 +1,2 @@
-export * from './maketing';
-export * from './manager';
+export * from './src/maketing';
+export * from './src/manager';

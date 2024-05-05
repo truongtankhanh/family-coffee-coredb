@@ -80,7 +80,7 @@ export type AccountStatus =
 export const ROLE_TYPE = {
   CUSTOMER: 'customer',
   STAFF: 'staff',
-  ADMIN: 'admin',
+  ADMIN: 'Admin',
 };
 
 export type RoleType = (typeof ROLE_TYPE)[keyof typeof ROLE_TYPE];

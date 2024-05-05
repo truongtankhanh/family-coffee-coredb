@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Admin",
+    "description": "Quản trị hệ thống, có quyền truy cập đầy đủ vào tất cả các tính năng của ứng dụng"
+  },
+  {
+    "name": "Nhân viên bán hàng",
+    "description": "Có quyền truy cập vào các tính năng liên quan đến bán hàng, quản lý đơn hàng và khách hàng"
+  },
+  {
+    "name": "Khách hàng",
+    "description": "Người dùng cuối cùng của hệ thống, có thể xem và đặt hàng sản phẩm"
+  },
+  {
+    "name": "Kế toán",
+    "description": "Chịu trách nhiệm về các công việc liên quan đến tài chính, bao gồm thanh toán, hóa đơn và báo cáo tài chính"
+  },
+  {
+    "name": "Quản lý kho",
+    "description": "Có quyền quản lý và kiểm soát hàng tồn kho, nhập và xuất hàng"
+  }
+]

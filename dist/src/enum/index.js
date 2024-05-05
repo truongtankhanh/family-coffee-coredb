@@ -61,7 +61,7 @@ exports.ACCOUNT_STATUS = {
 exports.ROLE_TYPE = {
     CUSTOMER: 'customer',
     STAFF: 'staff',
-    ADMIN: 'admin',
+    ADMIN: 'Admin',
 };
 exports.RATING_VALUE = {
     ONE: '1',

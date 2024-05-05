@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Chưa thanh toán",
+      "description": "Đơn hàng chưa được thanh toán"
+    },
+    {
+      "name": "Đã thanh toán",
+      "description": "Đơn hàng đã được thanh toán đầy đủ"
+    },
+    {
+      "name": "Chờ xác nhận thanh toán",
+      "description": "Đơn hàng đang chờ xác nhận thanh toán từ phía người dùng hoặc hệ thống"
+    },
+    {
+      "name": "Thất bại",
+      "description": "Thanh toán đơn hàng đã thất bại"
+    },
+    {
+      "name": "Hoàn trả",
+      "description": "Đơn hàng đã được hoàn trả tiền sau khi đã thanh toán"
+    }
+  ]
+  
